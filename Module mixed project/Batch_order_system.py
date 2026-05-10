@@ -9,6 +9,18 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DB_PATH = os.path.join(BASE_DIR, "orders.db")
 connect = sqlite3.connect(DB_PATH)
 
+connect.execute("""
+CREATE TABLE IF NOT EXISTS orders (
+    order_id TEXT,
+    name TEXT,
+    city TEXT,
+    product TEXT,
+    amount INTEGER,
+    time TEXT
+)
+""")
+connect.commit()
+
 class UserDetails(BaseModel):
    
     username:str
@@ -40,7 +52,7 @@ class Details(BaseModel):
 class Payment(BaseModel):
         
         product : str
-        amount_of_product : int
+        product_price : int
                 
 
 
@@ -48,7 +60,7 @@ class Ordering(BaseModel):
        
        login : UserDetails
        Address : Details
-       amount_of_balance : int
+       balance : int
        order_confirmation : bool
        payment_product : Payment
        order_id : str = Field(default_factory=lambda:str (uuid4()))
@@ -56,7 +68,7 @@ class Ordering(BaseModel):
 
        @model_validator(mode = 'after')
        def checking_capacity(self):
-              if self.payment_product.amount_of_product > self.amount_of_balance :
+              if self.payment_product.product_price > self.balance :
                      raise ValueError("You cant buy a product with price more than your balance")
      
               return self
@@ -98,7 +110,7 @@ def placing_order(order : Ordering):
           
            if order.order_confirmation:
           
-                  order.amount_of_balance = order.amount_of_balance - order.payment_product.amount_of_product
+                  order.balance = order.balance - order.payment_product.product_price
                   print("\nName : ",order.Address.name)
                   print("City : ",order.Address.city)
                   print("Pincode : ",order.Address.pincode)
@@ -116,7 +128,7 @@ def placing_order(order : Ordering):
                                           order.Address.name,
                                           order.Address.city,
                                           order.payment_product.product,
-                                          order.payment_product.amount_of_product,
+                                          order.payment_product.product_price,
                                           order.time
                                                 
                                                 ))
@@ -135,7 +147,7 @@ for i,data in enumerate(orders_batch,1):
                 "payment_product":{
 
                            "product" : prod_name,
-                           "amount_of_product":  prod_price                     
+                           "product_price":  prod_price                     
  
 
                 }
@@ -151,6 +163,7 @@ for i,data in enumerate(orders_batch,1):
                 print(f"\nIn user {i} Failed insufficient data. Reason : {e}")
 
 print("The Project completed")
+connect.close()
                 
 
 
