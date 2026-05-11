@@ -19,3 +19,13 @@ Basic backend structure
 SQLite database usage
 Order processing logic
 Python class-based modeling
+
+Quotes_scrape.py
+----------------
+This project is a Python web scraping system that collects quotes and author names from Quotes to Scrape using requests and BeautifulSoup. The scraper processes multiple pages, extracts quote data from HTML, and stores the collected results in a local JSON file.
+
+The project uses generator functions to handle data efficiently and reduce unnecessary memory usage during scraping. It also includes request handling with error protection to skip failed pages without stopping the program.
+
+Memory usage is tracked using tracemalloc, and the system displays statistics such as total URLs fetched, successful requests, total quotes collected, and peak RAM usage after execution.
+
+The main focus of this project is to practice web scraping, HTML parsing, generators, nested looping, error handling, JSON handling, and understanding data flow in Python applications.
