@@ -14,6 +14,7 @@ A collection of Python learning projects focused on:
 Each project in this repository was built to practice real programming concepts through hands-on development instead of only theoretical learning.
 
 ==================================================
+📂 FOLDER: Module mixed project
 📦 PROJECT 01 — Batch_order_system.py
 ==================================================
 
@@ -44,6 +45,7 @@ LEARNING FOCUS:
 - Order processing systems
 
 ==================================================
+📂 FOLDER: Scraping
 🌐 PROJECT 02 — Quotes_scrape.py
 ==================================================
 
@@ -76,6 +78,7 @@ LEARNING FOCUS:
 - JSON processing
 
 ==================================================
+📂 FOLDER: Module mixed project
 🎬 PROJECT 03 — Movie_database.py
 ==================================================
 
@@ -122,3 +125,4 @@ LEARNING FOCUS:
 • BeautifulSoup4
 • JSON
 • Tracemalloc
+
