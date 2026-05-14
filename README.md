@@ -1,174 +1,124 @@
-# Validation-Database-Web-Scraping
-
-This repository is a collection of my practice projects and learning experiments focused on validation systems, database handling, and web scraping using Python.
-
-The repository contains multiple independent scripts and mini-projects built to improve my understanding of backend logic, structured validation, database persistence, data processing, and scraping workflows.
-
-The main purpose of this repository is to strengthen problem-solving skills and gain practical experience by building real working systems instead of only studying theory.
-
 ==================================================
-TECHNOLOGIES USED
+ VALIDATION • DATABASE • WEB SCRAPING PROJECTS
 ==================================================
 
-- Python
-- SQLite3
-- Pydantic
-- Requests
-- BeautifulSoup4
-- JSON
-- Tracemalloc
+A collection of Python learning projects focused on:
+
+• Data Validation
+• SQLite Database Systems
+• Backend Logic
+• Web Scraping
+• Error Handling
+• Structured Data Processing
+
+Each project in this repository was built to practice real programming concepts through hands-on development instead of only theoretical learning.
 
 ==================================================
-PROJECTS INCLUDED
+📦 PROJECT 01 — Batch_order_system.py
 ==================================================
 
-##################################################
-MODULE MIXED PROJECT / Batch_order_system.py
-##################################################
+TYPE:
+Backend Style Order Processing System
 
-OVERVIEW
---------------------------------------------------
+DESCRIPTION:
+A beginner-level Python project that simulates an order management workflow.
 
-This project is a beginner-level Python order processing system that simulates a backend-style workflow for handling customer orders.
+The system validates customer data, processes orders, checks balances, generates unique order IDs, and stores confirmed orders inside an SQLite database.
 
-The system validates user information, creates orders, processes product selections, checks balances, and stores confirmed orders inside a local SQLite database.
+MAIN FEATURES:
+✔ User validation using Pydantic
+✔ Product ordering workflow
+✔ Balance checking system
+✔ Automatic order ID generation
+✔ SQLite database storage
+✔ Structured backend-style logic
 
-The project focuses on understanding how backend systems manage data flow, validation, and persistent storage.
-
-FEATURES
---------------------------------------------------
-
-[✓] User Validation
-Validates customer information before processing orders.
-
-[✓] Product Ordering
-Allows users to select products and create orders.
-
-[✓] Balance Checking
-Checks whether the customer has enough balance before confirming the order.
-
-[✓] Automatic Order ID Generation
-Generates unique order IDs automatically.
-
-[✓] SQLite Database Storage
-Stores confirmed orders inside:
-
+DATABASE:
 orders.db
 
-[✓] Structured Validation
-Uses Pydantic models to ensure valid and safe data handling.
-
-LEARNING FOCUS
---------------------------------------------------
-
-- Data validation concepts
-- Backend-style logic flow
-- SQLite database handling
+LEARNING FOCUS:
+- Validation systems
+- Backend logic flow
+- Database persistence
+- Class-based structure
 - Order processing systems
-- Class-based Python structure
-- Persistent data storage
 
-##################################################
-SCRAPING / Quotes_scrape.py
-##################################################
+==================================================
+🌐 PROJECT 02 — Quotes_scrape.py
+==================================================
 
-OVERVIEW
---------------------------------------------------
+TYPE:
+Web Scraping & Data Collection System
 
-This project is a Python web scraping system that collects quotes and author names from Quotes to Scrape using Requests and BeautifulSoup.
+DESCRIPTION:
+A Python scraping project that collects quotes and author names from Quotes to Scrape using Requests and BeautifulSoup.
 
-The scraper processes multiple pages, extracts quote data from HTML, and stores the collected information inside a local JSON file.
+The scraper processes multiple pages, extracts HTML data, stores results inside a JSON file, and tracks memory usage during execution.
 
-The project also tracks memory usage and request statistics during execution.
+MAIN FEATURES:
+✔ Multi-page scraping
+✔ HTML parsing with BeautifulSoup
+✔ JSON file storage
+✔ Generator-based data handling
+✔ Error protection for failed requests
+✔ Memory tracking using tracemalloc
+✔ Execution statistics display
 
-FEATURES
---------------------------------------------------
+OUTPUT:
+quotes.json
 
-[✓] Multi-page Scraping
-Scrapes quotes from multiple pages automatically.
-
-[✓] HTML Parsing
-Uses BeautifulSoup to extract quotes and author names from HTML content.
-
-[✓] JSON Storage
-Stores scraped data inside a JSON file for later use.
-
-[✓] Generator Functions
-Uses generators for efficient memory handling.
-
-[✓] Error Handling
-Skips failed requests without stopping the entire scraping process.
-
-[✓] Memory Tracking
-Tracks RAM usage using tracemalloc.
-
-[✓] Execution Statistics
-Displays:
-- Total URLs fetched
-- Successful requests
-- Total quotes collected
-- Peak memory usage
-
-LEARNING FOCUS
---------------------------------------------------
-
+LEARNING FOCUS:
 - Web scraping
 - HTML parsing
 - Generators
-- Nested looping
 - Error handling
-- JSON handling
 - Memory optimization
-- Python data flow understanding
-
-##################################################
-MODULE MIXED PROJECT / Movie_database.py
-##################################################
-
-OVERVIEW
---------------------------------------------------
-
-A command-line Movie Management System built using Python, SQLite, and Pydantic.
-
-The project allows users to manage a movie database directly from the terminal while maintaining strong validation and persistent storage.
-
-FEATURES
---------------------------------------------------
-
-[✓] Add Movies
-Store movie name, release year, and rating inside a SQLite database.
-
-[✓] Show All Movies
-Displays all stored movies.
-
-[✓] Show Top Movies
-Displays the top 3 highest-rated movies.
-
-[✓] Update Ratings
-Update ratings for existing movies.
-
-[✓] Delete Movies
-Remove movies from the database.
-
-[✓] Data Validation
-Validation handled using Pydantic:
-- Empty movie names are rejected
-- Ratings must be between 0 and 10
-- Invalid movie years are rejected
-
-[✓] SQLite Database Storage
-Automatically creates and manages:
-
-Movies.db
-
-LEARNING FOCUS
---------------------------------------------------
-
-- SQLite database handling
-- Data validation
-- CRUD operations
-- Database persistence
-- Python terminal applications
-- Structured backend logic
+- JSON processing
 
 ==================================================
+🎬 PROJECT 03 — Movie_database.py
+==================================================
+
+TYPE:
+Command-Line Movie Management System
+
+DESCRIPTION:
+A terminal-based movie database system built using Python, SQLite, and Pydantic.
+
+The system allows users to add, update, view, and delete movies while enforcing strong validation rules.
+
+MAIN FEATURES:
+✔ Add movies
+✔ Show all movies
+✔ Show top-rated movies
+✔ Update movie ratings
+✔ Delete movies
+✔ SQLite database integration
+✔ Validation using Pydantic
+
+DATABASE:
+Movies.db
+
+VALIDATION RULES:
+• Movie name cannot be empty
+• Ratings must be between 0 and 10
+• Invalid movie years are rejected
+
+LEARNING FOCUS:
+- CRUD operations
+- Database handling
+- Data validation
+- Terminal applications
+- Persistent storage systems
+
+==================================================
+🛠 TECHNOLOGIES USED
+==================================================
+
+• Python
+• SQLite3
+• Pydantic
+• Requests
+• BeautifulSoup4
+• JSON
+• Tracemalloc
