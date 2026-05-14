@@ -17,10 +17,11 @@ class EnsuringData(BaseModel):
                      raise ValueError("Movie year cant be future or early before movie existed ...")
                return self
      
-class checking_rows:
+class checking_rows(BaseModel):
         rows : int 
-        @field_validator(mode='after')
-        def row_checking(rows,value):
+        @field_validator('rows')
+        @classmethod
+        def row_checking(clas,value):
                 if value <= 0 :
                         raise ValueError("No Movies Added Yet")
                 return value
@@ -42,25 +43,28 @@ cur.execute("""
 conn.commit()
 
 def checking_row_num():
-        num = cur.execute("SELECT (*) FROM movies")
+        num = cur.execute("SELECT COUNT(*) FROM movies")
         row_count = num.fetchone()[0]
         return row_count
 
-options = int(input("Please Choose an Option \n 1.Add movie \n 2.Show all movies \n 3.Show top movies \n 4.Update rating \n 5.Delete Movie "))
 
 while True:
-
+                 try:
+                                   options = int(input(" Please Choose an Option \n 1.Add movie \n 2.Show all movies \n 3.Show top movies \n 4.Update rating \n 5.Delete Movie \n :  "))
+                 except Exception as e :
+                                             print(f"Invalid input . Reason {e}")
                  if options == 1:
                                         try:
-                                                          movie_name = str(input("Enter movie name : "))
-                                                          movie_year = int(input("Enter released year : "))
-                                                          movie_rating = float(input("Enter movie rating : "))
+                                                          movie_name = str(input("\n Enter movie name : ")).lower()
+                                                          movie_year = int(input(" Enter released year : "))
+                                                          movie_rating = float(input(" Enter movie rating : "))
                                                           EnsuringData(name=movie_name,year=movie_year,rating=movie_rating)
                                                           cur.execute("""
                                                                         INSERT INTO movies(movie_name,year,rating)
                                                                         VALUES(?,?,?)
                                                                            """,(movie_name,movie_year,movie_rating))
                                                           conn.commit()
+                                                          print("\n Movie added")
              
                                         except Exception as e:
                                                                   print(f"Movie added failed . Reason : {e}") 
@@ -68,59 +72,57 @@ while True:
                  elif options == 2:
                                         row = checking_row_num()
                                         try:
-                                                           checking_rows(row)
-                                                           all_movies = cur.execute("SELECT movie_name,year,rating FROM movies")        
+                                                           checking_rows(rows=row)
+                                                           all_movies = cur.execute("SELECT * FROM movies")        
                                                            for i in all_movies.fetchall():
-                                                                   for name,year,rating in i :
-                                                                           print(f"Movie name : {name} \n Released Year : {year} \n Rating : {rating}")
+                                                                           print(f"\n Movie name : {i[0]} \n Released Year : {i[1]} \n Rating : {i[2]}")
 
                                         except Exception as e :
-                                                                     print(f"Showing Movies failed . Reason : {e}") 
+                                                                     print(f"\n Showing Movies failed . Reason : {e}") 
 
                  elif options == 3:
                                        row = checking_row_num()
                                        try :
-                                                            checking_rows(row)
+                                                            checking_rows(rows=row)
                                                             top_movies = cur.execute("SELECT movie_name,year,rating FROM movies ORDER BY rating DESC LIMIT 3")
                                                             for i in top_movies.fetchall():
-                                                                   for name,year,rating in i :
-                                                                           print(f"Movie name : {name} \n Released Year : {year} \n Rating : {rating}")
+                                                                           print(f"\n Movie name : {i[0]} \n Released Year : {i[1]} \n Rating : {i[2]}")
 
                                        except Exception as e :
-                                                                     print(f"Showing Movies failed . Reason : {e}")
+                                                                     print(f"\n Showing Movies failed . Reason : {e}")
                  elif options == 4 :
                                       row = checking_row_num()
                                       try:
-                                                                 checking_rows(row)
-                                                                 changing_movie = str(input("Enter the movie name [rating changing movie] : "))
-                                                                 new_rate = float(input("Enter the new rating : "))
-                                                                 cur.execute(f'UPDATE movies SET rating = {new_rate} WHERE movie_name = {changing_movie} ')
+                                                                 checking_rows(rows=row)
+                                                                 changing_movie = str(input("\n Enter the movie name [rating changing movie] : ")).lower()
+                                                                 new_rate = float(input(" Enter the new rating : "))
+                                                                 cur.execute("UPDATE movies SET rating = ? WHERE movie_name = ? ",(new_rate,changing_movie))
                                                                  conn.commit()
-                                                                 print("Rating Updated")            
+                                                                 print("\n Rating Updated")            
                                       
                                       except Exception as e :
-                                                                   print(f"Showing Movies failed . Reason : {e}")               
+                                                                   print(f"\n Showing Movies failed . Reason : {e}")               
 
                  elif options == 5 :
                                       row = checking_row_num()
                                       try : 
-                                                                 checking_rows(row)
-                                                                 deleting_movie = str(input("Enter Movie name [Deleting movie] : "))        
-                                                                 cur.execute(f'DELETE movies WHERE movie_name = {deleting_movie} ')    
+                                                                 checking_rows(rows=row)
+                                                                 deleting_movie = str(input("\n Enter Movie name [Deleting movie] : "))        
+                                                                 cur.execute("DELETE FROM movies WHERE movie_name = ?",(deleting_movie,))    
                                                                  conn.commit()
-                                                                 print("Movie deleted ")
+                                                                 print("\n Movie deleted ")
                                       except Exception as e :
-                                                               print(f"Showing Movies failed . Reason : {e}") 
+                                                               print(f"\n Showing Movies failed . Reason : {e}") 
 
                  else :
-                          print("Option not exist")  
+                          print("\n Option not exist")  
                                 
                 
-                 con_ex = str(input("Do you want to quit : "))
+                 con_ex = str(input("\n Do you want to continue to menu : "))
                  if con_ex.lower() == "yes":
-                         break
-                 elif con_ex.lower() == "no":
                          continue
+                 elif con_ex.lower() == "no":
+                         break
                  else :
-                         print("Since you typed wrong response we are defaulting to quit all Your changes are saved No worries ✅")
+                         print("\n Since you typed wrong response we are defaulting to quit all Your changes are saved No worries ✅")
                  
