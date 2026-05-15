@@ -16,15 +16,11 @@ class EnsuringData(BaseModel):
                if self.year > 2026 or self.year < 1878:
                      raise ValueError("Movie year cant be future or early before movie existed ...")
                return self
-     
-class checking_rows(BaseModel):
-        rows : int 
-        @field_validator('rows')
-        @classmethod
-        def row_checking(clas,value):
-                if value <= 0 :
+
+def row_checking(row):
+                if row <= 0 :
                         raise ValueError("No Movies Added Yet")
-                return value
+                return row
 
 
 
@@ -67,7 +63,7 @@ def adding_movie():
 def showing_all_movies():
                                  row = checking_row_num()
                                  try:
-                                                           checking_rows(rows=row)
+                                                           row_checking(row)
                                                            all_movies = cur.execute("SELECT * FROM movies")        
                                                            for i in all_movies.fetchall():
                                                                            print(f"\n Movie name : {i[0]} \n Released Year : {i[1]} \n Rating : {i[2]}")
@@ -78,7 +74,7 @@ def showing_all_movies():
 def showing_top_movies():
                                  row = checking_row_num()
                                  try :
-                                                            checking_rows(rows=row)
+                                                            row_checking(row)
                                                             top_movies = cur.execute("SELECT movie_name,year,rating FROM movies ORDER BY rating DESC LIMIT 3")
                                                             for i in top_movies.fetchall():
                                                                            print(f"\n Movie name : {i[0]} \n Released Year : {i[1]} \n Rating : {i[2]}")
@@ -90,7 +86,7 @@ def showing_top_movies():
 def updating_rate():
                                   row = checking_row_num()
                                   try:
-                                                                 checking_rows(rows=row)
+                                                                 row_checking(row)
                                                                  changing_movie = str(input("\n Enter the movie name [rating changing movie] : ")).lower()
                                                                  changing_movie_year = cur.execute("SELECT year FROM movies WHERE movie_name = ? ",(changing_movie,))
                                                                  changing_movie_year = changing_movie_year.fetchone()
@@ -110,7 +106,7 @@ def updating_rate():
 def deleting_movie():
                                       row = checking_row_num()
                                       try : 
-                                                                 checking_rows(rows=row)
+                                                                 row_checking(row)
                                                                  deleting_movie = str(input("\n Enter Movie name [Deleting movie] : ")).lower()        
                                                                  cur.execute("DELETE FROM movies WHERE movie_name = ?",(deleting_movie,))    
                                                                  conn.commit()
