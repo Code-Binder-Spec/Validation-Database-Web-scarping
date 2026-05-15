@@ -48,14 +48,8 @@ def checking_row_num():
         return row_count
 
 
-while True:
-                 try:
-                                   options = int(input(" Please Choose an Option \n 1.Add movie \n 2.Show all movies \n 3.Show top movies \n 4.Update rating \n 5.Delete Movie \n :  "))
-                 except :
-                             print("\n Sorry we couldnt recognise the input . Try again")
-                             continue
-                 if options == 1:
-                                        try:
+def adding_movie():
+                                 try:
                                                           movie_name = str(input("\n Enter movie name : ")).lower()
                                                           movie_year = int(input(" Enter released year : "))
                                                           movie_rating = float(input(" Enter movie rating : "))
@@ -67,33 +61,35 @@ while True:
                                                           conn.commit()
                                                           print("\n Movie added")
              
-                                        except Exception as e:
-                                                                  print(f"Movie added failed . Reason : {e}") 
+                                 except Exception as e:
+                                                          print(f"Movie added failed . Reason : {e}") 
 
-                 elif options == 2:
-                                        row = checking_row_num()
-                                        try:
+def showing_all_movies():
+                                 row = checking_row_num()
+                                 try:
                                                            checking_rows(rows=row)
                                                            all_movies = cur.execute("SELECT * FROM movies")        
                                                            for i in all_movies.fetchall():
                                                                            print(f"\n Movie name : {i[0]} \n Released Year : {i[1]} \n Rating : {i[2]}")
 
-                                        except Exception as e :
-                                                                     print(f"\n Showing Movies failed . Reason : {e}") 
+                                 except Exception as e :
+                                                                      print(f"\n Showing all Movies failed . Reason : {e}") 
 
-                 elif options == 3:
-                                       row = checking_row_num()
-                                       try :
+def showing_top_movies():
+                                 row = checking_row_num()
+                                 try :
                                                             checking_rows(rows=row)
                                                             top_movies = cur.execute("SELECT movie_name,year,rating FROM movies ORDER BY rating DESC LIMIT 3")
                                                             for i in top_movies.fetchall():
                                                                            print(f"\n Movie name : {i[0]} \n Released Year : {i[1]} \n Rating : {i[2]}")
 
-                                       except Exception as e :
-                                                                     print(f"\n Showing Movies failed . Reason : {e}")
-                 elif options == 4 :
-                                      row = checking_row_num()
-                                      try:
+                                 except Exception as e :
+                                                                     print(f"\n Showing top Movies failed . Reason : {e}")
+
+
+def updating_rate():
+                                  row = checking_row_num()
+                                  try:
                                                                  checking_rows(rows=row)
                                                                  changing_movie = str(input("\n Enter the movie name [rating changing movie] : ")).lower()
                                                                  changing_movie_year = cur.execute("SELECT year FROM movies WHERE movie_name = ? ",(changing_movie,))
@@ -108,10 +104,10 @@ while True:
                                                                  else : 
                                                                          print("\n The movie nae you provided doesnt exist")            
                                       
-                                      except Exception as e :
-                                                                   print(f"\n Showing Movies failed . Reason : {e}")               
+                                  except Exception as e :
+                                                                   print(f"\n Updating rating Movie failed . Reason : {e}")
 
-                 elif options == 5 :
+def deleting_movie():
                                       row = checking_row_num()
                                       try : 
                                                                  checking_rows(rows=row)
@@ -124,7 +120,27 @@ while True:
                                                                                print("\n Movie not exist in database")
                                                                          
                                       except Exception as e :
-                                                               print(f"\n Showing Movies failed . Reason : {e}") 
+                                                               print(f"\n Deleting Movie failed . Reason : {e}") 
+
+while True:
+                 try:
+                                   options = int(input(" Please Choose an Option \n 1.Add movie \n 2.Show all movies \n 3.Show top movies \n 4.Update rating \n 5.Delete Movie \n :  "))
+                 except :
+                             print("\n Sorry we couldnt recognise the input . Try again")
+                             continue
+                 if options == 1:
+                                         adding_movie()
+
+                 elif options == 2:
+                                         showing_all_movies()
+
+                 elif options == 3:
+                                         showing_top_movies()
+                 elif options == 4 :
+                                         updating_rate()
+
+                 elif options == 5 :
+                                         deleting_movie()
 
                  else :
                           print("\n Option not exist")  
