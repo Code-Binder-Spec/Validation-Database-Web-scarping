@@ -14,7 +14,7 @@ A collection of Python learning projects focused on:
 Each project in this repository was built to practice real programming concepts through hands-on development instead of only theoretical learning.
 
 ==================================================
-📂 FOLDER: Module mixed project
+📂 FOLDER: Database
 📦 PROJECT 01 — Batch_order_system.py
 ==================================================
 
@@ -78,7 +78,7 @@ LEARNING FOCUS:
 - JSON processing
 
 ==================================================
-📂 FOLDER: Module mixed project
+📂 FOLDER: Database
 🎬 PROJECT 03 — Movie_database.py
 ==================================================
 
@@ -113,6 +113,48 @@ LEARNING FOCUS:
 - Data validation
 - Terminal applications
 - Persistent storage systems
+
+==================================================
+📂 FOLDER: Scraping
+📦 PROJECT 02 — Book_scrape.py
+==================================================
+
+TYPE:
+Memory Optimized Web Scraping & Validation System
+
+DESCRIPTION:
+
+A Python-based web scraping project that extracts book data from multiple pages, validates the extracted information using Pydantic, and stores the cleaned results inside a JSON file.
+
+The project uses a generator-based pipeline architecture to reduce memory usage while processing large amounts of scraped data. It also tracks RAM usage using tracemalloc.
+
+MAIN FEATURES:
+
+✔ Multi-page web scraping using Requests
+✔ HTML parsing using BeautifulSoup
+✔ Data validation using Pydantic
+✔ Generator-based streaming pipeline
+✔ Memory optimized JSON writing
+✔ Automatic book categorization
+✔ Exception handling for failed requests
+✔ RAM usage tracking using tracemalloc
+✔ Structured modular function design
+
+OUTPUT FILE:
+
+books.json
+
+LEARNING FOCUS:
+
+Web scraping workflows
+Generator pipelines
+Memory optimization
+Streaming JSON writing
+Data validation systems
+Exception handling
+HTML parsing
+Backend-style data processing
+Modular architecture
 
 ==================================================
 🛠 TECHNOLOGIES USED
