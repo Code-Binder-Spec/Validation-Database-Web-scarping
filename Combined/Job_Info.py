@@ -17,7 +17,7 @@ class Ensuring_Data(BaseModel):
         return self
         
 def creating_url():
-    for i in range(8040,8085):
+    for i in range(8044,8085):
         url = f"https://www.python.org/jobs/{i}/"
         yield url
 
@@ -41,7 +41,7 @@ def parsing_data(responses):
       for response in responses:
              soup = BeautifulSoup(response,"html.parser")
              blocks = soup.find_all("div",class_="container")
-             name_block = blocks.find_all("div",class_="job-description")
+             name_block = blocks.find("div",class_="job-description")
              company_block = blocks.find_all("span",class_ = "company-name")
              location_block = blocks.find_all("span",class_="listing_location")
              date_block = blocks.find_all("span",class_ = "listing-posted")
