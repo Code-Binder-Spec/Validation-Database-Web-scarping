@@ -41,12 +41,24 @@ def parsing_data(responses):
       for response in responses:
              soup = BeautifulSoup(response,"html.parser")
              blocks = soup.find("div",class_="container")
-             if not blocks:
-                   continue
              name_block = blocks.find("div",class_="job-description")
              company_block = blocks.find("span",class_ = "company-name")
              location_block = blocks.find("span",class_="listing-location")
              date_block = blocks.find("span",class_ = "listing-posted")
+             if not blocks:
+                   print("its block missing")
+                   continue
+             elif not name_block:
+                   print("Job name missing")
+                   continue
+             elif not company_block:
+                   print("Company missing")
+             elif not location_block:
+                   print("Location missing") 
+                   continue
+             elif not date_block:
+                   print("Date missing")
+                   continue
              job_name,job_company,location,date = extracting_everything(name_block,company_block,location_block,date_block)
              yield Ensuring_Data(Job_name=job_name,Company=job_company,Job_location=location,Job_posted_date=date)
 
