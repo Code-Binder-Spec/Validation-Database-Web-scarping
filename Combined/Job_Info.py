@@ -12,7 +12,7 @@ class Ensuring_Data(BaseModel):
 
     @model_validator(mode='after')
     def PreventingBugs(self):
-        if self.job_name.strip() or self.job_location.strip() or self.job_posted_date.strip() or self.company.strip() == "":
+        if any ([self.Job_name.strip() == "", self.Job_location.strip() == "" , self.Job_posted_date.strip() == "" , self.Company.strip() == ""]):
             raise ValueError("Missing field.")
         return self
         
@@ -34,19 +34,21 @@ def extracting_everything(job,comp,loc,dat):
       job_name = job.find("h2").next_sibling.next_sibling.strip()
       job_company = comp.find("br").next_sibling.next_sibling.strip()
       location = loc.find("a")["title"]
-      date = dat.find("time")["datetime"].text()
-      yield job_name,job_company,location,date
+      date = dat.find("time")["datetime"]
+      return job_name,job_company,location,date
 
 def parsing_data(responses):
       for response in responses:
              soup = BeautifulSoup(response,"html.parser")
-             blocks = soup.find_all("div",class_="container")
+             blocks = soup.find("div",class_="container")
+             if not blocks:
+                   continue
              name_block = blocks.find("div",class_="job-description")
-             company_block = blocks.find_all("span",class_ = "company-name")
-             location_block = blocks.find_all("span",class_="listing_location")
-             date_block = blocks.find_all("span",class_ = "listing-posted")
-             for job_name,job_company,location,date in extracting_everything(name_block,company_block,location_block,date_block):
-                   yield Ensuring_Data(Job_name=job_name,Company=job_company,Job_location=location,Job_posted_date=date)
+             company_block = blocks.find("span",class_ = "company-name")
+             location_block = blocks.find("span",class_="listing-location")
+             date_block = blocks.find("span",class_ = "listing-posted")
+             job_name,job_company,location,date = extracting_everything(name_block,company_block,location_block,date_block)
+             yield Ensuring_Data(Job_name=job_name,Company=job_company,Job_location=location,Job_posted_date=date)
 
 urls = creating_url()
 response = getting_response(urls)
