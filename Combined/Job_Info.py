@@ -30,9 +30,9 @@ def getting_response(urls):
         except Exception as e :
                      print(f"Url request failed . Reason : {e}")
 
-def extracting_everything(job,comp,loc,dat):
-      job_name = job.find("h2").next_sibling.next_sibling.strip()
-      job_company = comp.find("br").next_sibling.next_sibling.strip()
+def extracting_everything(job_comp,loc,dat):
+      job_name  = job_comp.next_sibling.next_sibling.strip()
+      job_company = job_comp.find("br").next_sibling.next_sibling.strip()
       location = loc.find("a")["title"]
       date = dat.find("time")["datetime"]
       return job_name,job_company,location,date
@@ -41,17 +41,13 @@ def parsing_data(responses):
       for response in responses:
              soup = BeautifulSoup(response,"html.parser")
              blocks = soup.find("div",class_="container")
-             name_block = blocks.find("div",class_="job-description")
-             company_block = blocks.find("span",class_ = "company-name")
+             job_name_company_block = blocks.find("span",class_ = "company-name")
              location_block = blocks.find("span",class_="listing-location")
              date_block = blocks.find("span",class_ = "listing-posted")
              if not blocks:
                    print("its block missing")
                    continue
-             elif not name_block:
-                   print("Job name missing")
-                   continue
-             elif not company_block:
+             elif not job_name_company_block:
                    print("Company missing")
              elif not location_block:
                    print("Location missing") 
@@ -59,7 +55,7 @@ def parsing_data(responses):
              elif not date_block:
                    print("Date missing")
                    continue
-             job_name,job_company,location,date = extracting_everything(name_block,company_block,location_block,date_block)
+             job_name,job_company,location,date = extracting_everything(job_name_company_block,location_block,date_block)
              yield Ensuring_Data(Job_name=job_name,Company=job_company,Job_location=location,Job_posted_date=date)
 
 urls = creating_url()
