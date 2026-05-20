@@ -5,8 +5,6 @@ import json
 
 class Ensuring_Data(BaseModel):
 
-    Job_name : str
-    Company : str
     Job_location : str 
     Job_posted_date : str
 
@@ -30,12 +28,10 @@ def getting_response(urls):
         except Exception as e :
                      print(f"Url request failed . Reason : {e}")
 
-def extracting_everything(job_comp,loc,dat):
-      job_name  = job_comp.next_sibling.next_sibling.strip()
-      job_company = job_comp.find("br").next_sibling.next_sibling.strip()
+def extracting_everything(loc,dat):
       location = loc.find("a")["title"]
       date = dat.find("time")["datetime"]
-      return job_name,job_company,location,date
+      return location,date
 
 def parsing_data(responses):
       for response in responses:
@@ -47,16 +43,14 @@ def parsing_data(responses):
              if not blocks:
                    print("its block missing")
                    continue
-             elif not job_name_company_block:
-                   print("Company missing")
              elif not location_block:
                    print("Location missing") 
                    continue
              elif not date_block:
                    print("Date missing")
                    continue
-             job_name,job_company,location,date = extracting_everything(job_name_company_block,location_block,date_block)
-             yield Ensuring_Data(Job_name=job_name,Company=job_company,Job_location=location,Job_posted_date=date)
+             location,date = extracting_everything(location_block,date_block)
+             yield Ensuring_Data(Job_location=location,Job_posted_date=date)
 
 urls = creating_url()
 response = getting_response(urls)
