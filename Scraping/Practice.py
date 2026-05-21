@@ -1,35 +1,38 @@
 from bs4 import BeautifulSoup 
 
 html = """
-<html>
-  <body>
-    <div class="store">
-      <h1 id="store-name">TechShop</h1>
-
-      <div class="product" id="p1">
-        <h2 class="title">Wireless Mouse</h2>
-        <p class="price">$25.99</p>
-        <a href="/products/mouse" class="link">View</a>
-      </div>
-
-      <div class="product" id="p2">
-        <h2 class="title">Mechanical Keyboard</h2>
-        <p class="price">$89.99</p>
-        <a href="/products/keyboard" class="link">View</a>
-      </div>
-
-      <div class="product featured" id="p3">
-        <h2 class="title">4K Monitor</h2>
-        <p class="price">$399.99</p>
-        <a href="/products/monitor" class="link">View</a>
-      </div>
+<div class="blog">
+  <article class="post" id="post-1">
+    <h2 class="post-title">Learning Python</h2>
+    <span class="author">by John</span>
+    <span class="date">2024-01-15</span>
+    <div class="tags">
+      <a class="tag" href="/tags/python">Python</a>
+      <a class="tag" href="/tags/coding">Coding</a>
     </div>
-  </body>
-</html>
+  </article>
+
+  <article class="post" id="post-2">
+    <h2 class="post-title">Web Scraping Guide</h2>
+    <span class="author">by Sarah</span>
+    <span class="date">2024-02-20</span>
+    <div class="tags">
+      <a class="tag" href="/tags/scraping">Scraping</a>
+      <a class="tag" href="/tags/python">Python</a>
+      <a class="tag" href="/tags/web">Web</a>
+    </div>
+  </article>
+</div>
 """
 
 soup = BeautifulSoup(html, "html.parser")
-all_things = soup.select("p.price")
-for i in all_things:
-    print(i.text)
-# Write your code below and run it to test!
+for div in soup.select(".post"):
+    title = div.find("h2",class_="post-title").text
+    author = div.find("span",class_="author").text
+    author = author.replace("by","")
+    date = div.find("span",class_="date").text
+    for link in div.select("div.tags"):
+         herf = link.find("a")["href"]
+         print(f"\n Title : {title} \n Author : {author} \n Date : {date} \n Href : {herf}")
+
+
