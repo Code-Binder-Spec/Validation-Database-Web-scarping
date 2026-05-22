@@ -1,38 +1,55 @@
 from bs4 import BeautifulSoup 
 
 html = """
-<div class="blog">
-  <article class="post" id="post-1">
-    <h2 class="post-title">Learning Python</h2>
-    <span class="author">by John</span>
-    <span class="date">2024-01-15</span>
-    <div class="tags">
-      <a class="tag" href="/tags/python">Python</a>
-      <a class="tag" href="/tags/coding">Coding</a>
+<div class="school">
+  <div class="classroom" id="class-1">
+    <h2 class="class-name">Mathematics</h2>
+    <div class="teacher">
+      <span class="name">Mr. Smith</span>
     </div>
-  </article>
+    <ul class="students">
+      <li class="student">
+        <span class="name">Alice</span>
+        <span class="grade">A</span>
+      </li>
+      <li class="student">
+        <span class="name">Bob</span>
+        <span class="grade">B</span>
+      </li>
+    </ul>
+  </div>
 
-  <article class="post" id="post-2">
-    <h2 class="post-title">Web Scraping Guide</h2>
-    <span class="author">by Sarah</span>
-    <span class="date">2024-02-20</span>
-    <div class="tags">
-      <a class="tag" href="/tags/scraping">Scraping</a>
-      <a class="tag" href="/tags/python">Python</a>
-      <a class="tag" href="/tags/web">Web</a>
+  <div class="classroom" id="class-2">
+    <h2 class="class-name">Science</h2>
+    <div class="teacher">
+      <span class="name">Ms. Johnson</span>
+      <span class="experience">8 years</span>
     </div>
-  </article>
+    <ul class="students">
+      <li class="student">
+        <span class="name">Charlie</span>
+        <span class="grade">A</span>
+      </li>
+      <li class="student">
+        <span class="name">Diana</span>
+        <span class="grade">C</span>
+      </li>
+    </ul>
+  </div>
 </div>
 """
 
 soup = BeautifulSoup(html, "html.parser")
-for div in soup.select(".post"):
-    title = div.find("h2",class_="post-title").text
-    author = div.find("span",class_="author").text
-    author = author.replace("by","")
-    date = div.find("span",class_="date").text
-    for link in div.select("div.tags"):
-         herf = link.find("a")["href"]
-         print(f"\n Title : {title} \n Author : {author} \n Date : {date} \n Href : {herf}")
-
-
+for div in soup.select(".classroom"):
+                      class_name = div.find("h2",class_="class-name").text
+                      room = div.find("div",class_="teacher") 
+                      teacher_name = room.find("span",class_="name").text
+                      experience = room.find("span",class_="experience")
+                      experience = experience.text if experience else "unknown"
+                      students = div.find_all("li",class_="student")
+                      print(f"\n Class : {class_name} \n Teacher : {teacher_name} ({experience}) \n Students : ")  
+                      for student in students:
+                                  name =  student.find("span",class_="name").text
+                                  grade = student.find("span",class_="grade").text
+                                  print(f"  -{name} | Grade : {grade}")
+    
