@@ -1,7 +1,24 @@
 from pydantic import BaseModel,model_validator
 import requests
 from bs4 import BeautifulSoup
-import json
+import sqlite3
+
+con = sqlite3.connect("Job.db")
+cur = con.cursor()
+
+cur.execute("""
+         
+        CREATE TABLE IF NOT EXISTS jobs(
+            id INTEGER PRIMARY KEY,
+            Job_Name TEXT,
+            Company_Name TEXT,
+            Job_Location TEXT,
+            Posted_Date TEXT,
+            Description TEXT
+            )
+""")
+
+con.commit()
 
 class Ensuring_Data(BaseModel):
 
@@ -13,7 +30,7 @@ class Ensuring_Data(BaseModel):
 
     @model_validator(mode='after')
     def PreventingBugs(self):
-        if any ([self.Job_name.strip() == "", self.Job_location.strip() == "" , self.Job_posted_date.strip() == "" , self.Company.strip() == ""]):
+        if any ([self.Job_name.strip() == "", self.Job_location.strip() == "" , self.Job_posted_date.strip() == "" , self.Company.strip() == "",self.Job_description.strip() == ""]):
             raise ValueError("Missing field.")
         return self
         
@@ -37,6 +54,8 @@ def extracting_everything(name,company,location,jobdes):
          job_name = h2.next_sibling.strip() if h2 else "missing"
          for p in jobdes:
                 description = description + "\n" + p.text
+         if not description:
+                description = "missing"
          br = company[0].find("br") if company else None
          company_name = br.next_sibling.strip() if br else "missing"
          a = location[0].find("a") if location else None
@@ -59,24 +78,27 @@ def parsing_data(responses):
                        yield Ensuring_Data(Job_name=r_name,Company=r_com,Job_location=r_loc,Job_posted_date=real_date,Job_description=r_description)
              except ValueError as e:
                        print(f"Data parsing failed . reason : {e}")
+
 urls = creating_url()
 response = getting_response(urls)
 parse = parsing_data(response)
 
-with open("Job.json","w",encoding="utf-8") as f :
-      f.write("[\n")
-      first = True
+try:
+            for job in parse:
+                        cur.execute("""
+                                     INSERT INTO jobs(Job_Name,Company_Name,Job_Location,Posted_Date,Description)
+                                     VALUES(?,?,?,?,?)
+                                     """,(job.Job_name,job.Company,job.Job_location,job.Job_posted_date,job.Job_description))
+                        con.commit()
+except Exception as e :
+                        print(f"Data saved failed . Reason : {e}")
 
-      for job in parse:
-            
-            if not first :
-                  f.write(",\n")
-            
-            json.dump(job.model_dump(),f)
-            
-            first = False 
-            
-      f.write("\n]")
+finally : 
+                 con.close()    
+
+       
+
+
 
         
 
