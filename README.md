@@ -157,6 +157,47 @@ Backend-style data processing
 Modular architecture
 
 ==================================================
+📂 FOLDER: Combined
+📦 PROJECT 01 — Job_info.py
+==================================================
+TYPE: 
+Real-World Job Board Web Scraping & SQLite Storage System
+
+DESCRIPTION:
+A Python-based web scraping project that extracts job listing data from the Python.org job board,
+validates the extracted information using Pydantic, and stores the cleaned results inside a SQLite database.
+The project targets a real-world, inconsistently structured job board — making it significantly
+more complex than tutorial-grade scraping projects. It uses a generator-based pipeline architecture
+to process data efficiently, with multi-level defensive extraction to handle missing or malformed HTML fields.
+
+MAIN FEATURES:
+✔ Real-world job board scraping using Requests
+✔ HTML parsing using BeautifulSoup
+✔ Scoped CSS selector extraction (container-based)
+✔ Multi-level defensive chaining for missing tags
+✔ Data validation using Pydantic
+✔ Generator-based streaming pipeline
+✔ Job description extraction from nested HTML structure
+✔ SQLite database storage using sqlite3
+✔ Exception handling for failed requests and bad listings
+✔ Safe database connection management using try/except/finally
+✔ Structured modular function design
+
+OUTPUT FILE:
+Job.db
+
+LEARNING FOCUS:
+Real-world web scraping on inconsistent HTML
+CSS selector scoping and descendant selectors
+Defensive chaining for missing/null tags
+Generator pipelines and memory efficiency
+Data validation with Pydantic model validators
+SQLite database creation and insertion
+Safe resource management with try/except/finally
+Modular pipeline architecture
+Handling optional and unreliable data fields
+
+==================================================
 🛠 TECHNOLOGIES USED
 ==================================================
 
