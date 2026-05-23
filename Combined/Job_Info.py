@@ -5,6 +5,8 @@ import json
 
 class Ensuring_Data(BaseModel):
 
+    Job_name : str
+    Company : str
     Job_location : str 
     Job_posted_date : str
 
@@ -28,29 +30,30 @@ def getting_response(urls):
         except Exception as e :
                      print(f"Url request failed . Reason : {e}")
 
-def extracting_everything(loc,dat):
-      location = loc.find("a")["title"]
-      date = dat.find("time")["datetime"]
-      return location,date
+def extracting_everything(name,company,location):
+         for job in name :
+                    job_name = job.find("h2").next_sibling.strip()
+                    print(job_name)
+         company_name = company[0].find("br").next_sibling.strip()
+         print(company_name)
+         loc = location[0].find("a").text
+         return job_name,company_name,loc
 
 def parsing_data(responses):
-      for response in responses:
+         for response in responses :
+             
              soup = BeautifulSoup(response,"html.parser")
-             blocks = soup.find("div",class_="container")
-             job_name_company_block = blocks.find("span",class_ = "company-name")
-             location_block = blocks.find("span",class_="listing-location")
-             date_block = blocks.find("span",class_ = "listing-posted")
-             if not blocks:
-                   print("its block missing")
-                   continue
-             elif not location_block:
-                   print("Location missing") 
-                   continue
-             elif not date_block:
-                   print("Date missing")
-                   continue
-             location,date = extracting_everything(location_block,date_block)
-             yield Ensuring_Data(Job_location=location,Job_posted_date=date)
+             job_name = soup.select("div.job-description")
+             print(job_name)
+             company_name = soup.select("span.company-name")
+             print(company_name)
+             job_loc = soup.select("span.listing-location")
+             print(job_loc)
+             job_date = soup.select("time")[0].text
+             print(job_date)
+             r_name,r_com,r_loc = extracting_everything(job_name,company_name,job_loc)
+
+             yield Ensuring_Data(Job_name=r_name,Company=r_com,Job_location=r_loc,Job_posted_date=job_date)
 
 urls = creating_url()
 response = getting_response(urls)
