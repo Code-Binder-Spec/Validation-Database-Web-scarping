@@ -14,7 +14,7 @@ A collection of Python learning projects focused on:
 Each project in this repository was built to practice real programming concepts through hands-on development instead of only theoretical learning.
 
 ==================================================
-📂 FOLDER: Database
+📂 FOLDER: Database/normal_sqlite
 📦 PROJECT 01 — Batch_order_system.py
 ==================================================
 
@@ -45,7 +45,7 @@ LEARNING FOCUS:
 - Order processing systems
 
 ==================================================
-📂 FOLDER: Scraping
+📂 FOLDER: Scraping/normal_scraping
 🌐 PROJECT 02 — Quotes_scrape.py
 ==================================================
 
@@ -78,7 +78,7 @@ LEARNING FOCUS:
 - JSON processing
 
 ==================================================
-📂 FOLDER: Database
+📂 FOLDER: Database/normal_sqlite
 🎬 PROJECT 03 — Movie_database.py
 ==================================================
 
@@ -115,7 +115,7 @@ LEARNING FOCUS:
 - Persistent storage systems
 
 ==================================================
-📂 FOLDER: Scraping
+📂 FOLDER: Scraping/normal_scraping
 📦 PROJECT 02 — Book_scrape.py
 ==================================================
 
@@ -198,14 +198,101 @@ Modular pipeline architecture
 Handling optional and unreliable data fields
 
 ==================================================
+📂 FOLDER: Scraping/aiohttp_scraping
+📦 PROJECT — Hackernews_scraping.py
+==================================================
+TYPE:
+Async Multi-Page Hacker News Scraper with JSON Storage
+
+DESCRIPTION:
+A Python-based asynchronous web scraping project that extracts story data
+from 30 pages of Hacker News simultaneously using aiohttp and asyncio.
+The project uses a Semaphore-controlled concurrency model to avoid
+overwhelming the server, with defensive extraction handling missing or
+inconsistent HTML fields. Scraped data is validated at the extraction
+level and stored in a structured JSON output file with full logging support.
+
+MAIN FEATURES:
+✔ Asynchronous HTTP requests using aiohttp
+✔ Concurrent scraping of 30 pages using asyncio.gather
+✔ Semaphore-based rate limiting (max 3 concurrent requests)
+✔ HTML parsing using BeautifulSoup
+✔ Modular defensive extraction for title, score, and comment fields
+✔ Sibling-row parsing for Hacker News two-row story structure
+✔ Exception handling for failed requests and bad status codes
+✔ Structured JSON output storage
+✔ File-based logging with DEBUG level tracking
+✔ Clean session management using aiohttp.ClientSession
+
+OUTPUT FILE:
+Hackernews.json
+Hackernews.log
+
+LEARNING FOCUS:
+Asynchronous programming with asyncio and aiohttp
+Semaphore-based concurrency control
+Multi-page parallel scraping architecture
+Defensive extraction for inconsistent HTML structures
+Sibling-row parsing for paired HTML elements
+Modular scraping function design
+JSON data storage and formatting
+File-based logging for async applications
+Exception handling in async context
+
+==================================================
+📂 FOLDER: Database/aiosqlite
+📦 PROJECT — Banking_system.py
+==================================================
+TYPE:
+Async Banking System with SQLite Storage and Transaction Management
+
+DESCRIPTION:
+A Python-based asynchronous banking system that simulates real-world financial
+operations including deposits, withdrawals, and transfers using aiosqlite and asyncio.
+The project uses a multi-table SQLite database to persist account and transaction
+data, with a whitelist-based SQL injection defense layer for dynamic queries.
+All operations are processed concurrently using asyncio.gather, with full rollback
+support on failure and structured transaction logging for every operation attempted.
+
+MAIN FEATURES:
+✔ Asynchronous SQLite operations using aiosqlite
+✔ Concurrent transaction processing using asyncio.gather
+✔ Multi-table database design (accounts + transactions)
+✔ Deposit, Withdraw, and Transfer operations
+✔ Whitelist-based SQL injection defense for dynamic queries
+✔ Atomic transactions with rollback on failure
+✔ Transaction status logging (Success/Failed) in database
+✔ Defensive balance validation before operations
+✔ Structured process router for transaction dispatch
+✔ Safe database connection management using async context manager
+
+OUTPUT FILE:
+Bank.db
+
+LEARNING FOCUS:
+Asynchronous database operations with aiosqlite
+Concurrent transaction handling with asyncio.gather
+Multi-table relational database design
+Atomic transactions and rollback strategies
+Whitelist-based defense against SQL injection
+Balance validation and financial logic
+Transaction logging and status tracking
+Async context manager for database connections
+Dynamic query construction with safety constraints
+Modular async function architecture
+
+==================================================
 🛠 TECHNOLOGIES USED
 ==================================================
 
-• Python
-• SQLite3
-• Pydantic
-• Requests
-• BeautifulSoup4
-• JSON
-• Tracemalloc
-
+- Python
+- SQLite3
+- Pydantic
+- Requests
+- BeautifulSoup4
+- aiohttp
+- aiosqlite
+- asyncio
+- JSON
+- Tracemalloc
+- Logging
