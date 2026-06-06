@@ -160,11 +160,11 @@ async def passing_blocks(url,session,full_data,time):
           if succes:
                   logging.info(f"{url} Fetched : succes")
           else :
-                logging.error(f"Data failed due to error {e}")  
+                  logging.error(f"Data failed due to error {e}")  
                   
 
 async def sql_writing(db,data):
-         await db.execute("INSERT INTO github_trend(username,reponame,description,total_stars,total_fork,total_stars_today,programming_language,time_period) VALUES (?,?,?,?,?,?,?,?)",(data.username,data.reponame,data.description,data.total_stars,data.total_fork,data.total_stars_today,data.programing_language,data.time_period))
+         await db.execute("INSERT OR IGNORE INTO github_trend(username,reponame,description,total_stars,total_fork,total_stars_today,programming_language,time_period) VALUES (?,?,?,?,?,?,?,?)",(data.username,data.reponame,data.description,data.total_stars,data.total_fork,data.total_stars_today,data.programing_language,data.time_period))
          await db.commit()
          return db
 
@@ -184,7 +184,8 @@ async def main():
                                            total_fork INTEGER,
                                            total_stars_today INTEGER,
                                            programming_language TEXT,
-                                           time_period TEXT
+                                           time_period TEXT,
+                                           UNIQUE(username,reponame,time_period)
                                            )              
                                                  """)
                            await db.commit()
