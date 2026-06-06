@@ -5,7 +5,7 @@ import aiohttp
 import aiosqlite
 import logging
 
-logging.basicConfig(filename="Github.logger",level=logging.INFO)
+logging.basicConfig(filename="Github.log",level=logging.INFO)
 
 class Cleaning_data(BaseModel):
        

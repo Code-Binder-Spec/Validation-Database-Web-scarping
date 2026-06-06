@@ -1,0 +1,4172 @@
+[
+    {
+        "Title": "Moving beyond fork() + exec()",
+        "Score": "89 points",
+        "comment": "69\u00a0comments"
+    },
+    {
+        "Title": "Benchmarks in Leipzig",
+        "Score": "65 points",
+        "comment": "28\u00a0comments"
+    },
+    {
+        "Title": "Nvidia is proposing a beast of a CPU system for Windows PCs",
+        "Score": "63 points",
+        "comment": "123\u00a0comments"
+    },
+    {
+        "Title": "Google will pay SpaceX $920M per month for compute",
+        "Score": "178 points",
+        "comment": "218\u00a0comments"
+    },
+    {
+        "Title": "How LLMs work",
+        "Score": "646 points",
+        "comment": "181\u00a0comments"
+    },
+    {
+        "Title": "Building Rust Procedural Macros from the Grounds Up",
+        "Score": "37 points",
+        "comment": "2\u00a0comments"
+    },
+    {
+        "Title": "Pokemon Emerald Ported to WebAssembly (100k FPS)",
+        "Score": "106 points",
+        "comment": "28\u00a0comments"
+    },
+    {
+        "Title": "Tribute to Jiro Yamada, Automotive Artist (1960-2025) [video]",
+        "Score": "20 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "The new bibliomaniacs",
+        "Score": "38 points",
+        "comment": "27\u00a0comments"
+    },
+    {
+        "Title": "Running Python code in a sandbox with MicroPython and WASM",
+        "Score": "10 points",
+        "comment": "2\u00a0comments"
+    },
+    {
+        "Title": "S&P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic",
+        "Score": "1027 points",
+        "comment": "370\u00a0comments"
+    },
+    {
+        "Title": "Police in England and Wales told to halt AI use in court statements",
+        "Score": "18 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Mbodi AI (YC P25) Is Hiring Founding Machine Learning Engineer (Robotics)",
+        "Score": "0 point",
+        "comment": "discuss"
+    },
+    {
+        "Title": "The intracies of modern camera lens repair (2024)",
+        "Score": "214 points",
+        "comment": "77\u00a0comments"
+    },
+    {
+        "Title": "US House lawmakers release draft bill to prohibit state AI rules",
+        "Score": "59 points",
+        "comment": "22\u00a0comments"
+    },
+    {
+        "Title": "Splash Is a Colour Format",
+        "Score": "7 points",
+        "comment": "8\u00a0comments"
+    },
+    {
+        "Title": "Show HN: Soft Body Jiggle Physics",
+        "Score": "19 points",
+        "comment": "8\u00a0comments"
+    },
+    {
+        "Title": "New method turns ocean water into drinking water, without waste",
+        "Score": "453 points",
+        "comment": "191\u00a0comments"
+    },
+    {
+        "Title": "Ask HN: What was your \"oh shit\" moment with GenAI?",
+        "Score": "449 points",
+        "comment": "804\u00a0comments"
+    },
+    {
+        "Title": "Azure Linux Desktop",
+        "Score": "61 points",
+        "comment": "39\u00a0comments"
+    },
+    {
+        "Title": "Social Cache Busting",
+        "Score": "96 points",
+        "comment": "32\u00a0comments"
+    },
+    {
+        "Title": "pg_durable: Microsoft open sources in-database durable execution",
+        "Score": "440 points",
+        "comment": "102\u00a0comments"
+    },
+    {
+        "Title": "Pre-Modern Armies for Worldbuilders, Part I: Why They Fight",
+        "Score": "133 points",
+        "comment": "43\u00a0comments"
+    },
+    {
+        "Title": "Astronauts told to return to ISS after sheltering over air leak repairs",
+        "Score": "413 points",
+        "comment": "255\u00a0comments"
+    },
+    {
+        "Title": "The perils of UUID primary keys in SQLite",
+        "Score": "120 points",
+        "comment": "69\u00a0comments"
+    },
+    {
+        "Title": "Trees to Flows and Back: Unifying Decision Trees and Diffusion Models",
+        "Score": "6 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Gemma 4 QAT models: Optimizing compression for mobile and laptop efficiency",
+        "Score": "376 points",
+        "comment": "116\u00a0comments"
+    },
+    {
+        "Title": "Mouseless \u2013 keyboard-driven control of macOS/Linux/Windows",
+        "Score": "565 points",
+        "comment": "230\u00a0comments"
+    },
+    {
+        "Title": "The Smart TV in Your LivingRoom Is a Node in the AIScraping Economy",
+        "Score": "155 points",
+        "comment": "51\u00a0comments"
+    },
+    {
+        "Title": "The back cover of C++: The Language raises questions not answered by front cover",
+        "Score": "133 points",
+        "comment": "43\u00a0comments"
+    },
+    {
+        "Title": "Meta Keeps Delaying the Release of Its New AI Model to Developers",
+        "Score": "43 points",
+        "comment": "17\u00a0comments"
+    },
+    {
+        "Title": "My Agent Skill for Test-Driven Development",
+        "Score": "211 points",
+        "comment": "95\u00a0comments"
+    },
+    {
+        "Title": "Gov.uk has replaced Stripe with Dutch provider Adyen",
+        "Score": "538 points",
+        "comment": "203\u00a0comments"
+    },
+    {
+        "Title": "Ten Years of Franz",
+        "Score": "54 points",
+        "comment": "31\u00a0comments"
+    },
+    {
+        "Title": "Communities of Not",
+        "Score": "5 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "HISE \u2013 Toolkit for building VST plugins",
+        "Score": "17 points",
+        "comment": "2\u00a0comments"
+    },
+    {
+        "Title": "Tracing a powerful GNSS interference source over Europe",
+        "Score": "410 points",
+        "comment": "213\u00a0comments"
+    },
+    {
+        "Title": "Conventional Commits encourages focus on the wrong things",
+        "Score": "341 points",
+        "comment": "246\u00a0comments"
+    },
+    {
+        "Title": "Introduction \u2013 Rust for Python Programmers",
+        "Score": "54 points",
+        "comment": "21\u00a0comments"
+    },
+    {
+        "Title": "Python JIT project was asked to pause development",
+        "Score": "4 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "The Quiet Numbers Station: Decoding Nineteen Years of GPS Cryptography",
+        "Score": "103 points",
+        "comment": "75\u00a0comments"
+    },
+    {
+        "Title": "Three of our worst VC stories",
+        "Score": "249 points",
+        "comment": "124\u00a0comments"
+    },
+    {
+        "Title": "Nine Ways to Do Inheritance in Rust, a Language Without Inheritance",
+        "Score": "70 points",
+        "comment": "14\u00a0comments"
+    },
+    {
+        "Title": "Ask HN: Why is the HN crowd so anti-AI?",
+        "Score": "234 points",
+        "comment": "421\u00a0comments"
+    },
+    {
+        "Title": "India's surprise baby bust",
+        "Score": "206 points",
+        "comment": "907\u00a0comments"
+    },
+    {
+        "Title": "Zig Zen Update",
+        "Score": "116 points",
+        "comment": "55\u00a0comments"
+    },
+    {
+        "Title": "Lockdown Mode",
+        "Score": "79 points",
+        "comment": "33\u00a0comments"
+    },
+    {
+        "Title": "South Korean forums will need to scan every images with AI censorship tools",
+        "Score": "256 points",
+        "comment": "145\u00a0comments"
+    },
+    {
+        "Title": "Transformers are inherently succinct",
+        "Score": "133 points",
+        "comment": "38\u00a0comments"
+    },
+    {
+        "Title": "Police remove biabetes researcher, other experts from medical conference",
+        "Score": "4 points",
+        "comment": "2\u00a0comments"
+    },
+    {
+        "Title": "Cooldown Support for Ruby Bundler",
+        "Score": "161 points",
+        "comment": "43\u00a0comments"
+    },
+    {
+        "Title": "I tested every IP KVM in my Homelab",
+        "Score": "285 points",
+        "comment": "76\u00a0comments"
+    },
+    {
+        "Title": "Show HN: Formally verified polygon intersection \u2013 Opus 4.8 oneshots, prev failed",
+        "Score": "79 points",
+        "comment": "17\u00a0comments"
+    },
+    {
+        "Title": "The Apple Ad That Broke Microsoft [video]",
+        "Score": "6 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Raytracing Geometries in 3D Rendering",
+        "Score": "15 points",
+        "comment": "2\u00a0comments"
+    },
+    {
+        "Title": "Redis 8.8: New array data structure, rate limiter, performance improvements",
+        "Score": "214 points",
+        "comment": "99\u00a0comments"
+    },
+    {
+        "Title": "Launch HN: General Instinct (YC P26) \u2013 Frontier models on edge devices",
+        "Score": "54 points",
+        "comment": "16\u00a0comments"
+    },
+    {
+        "Title": "Some concerns about Ladybird's (Browser) bylaws",
+        "Score": "6 points",
+        "comment": "2\u00a0comments"
+    },
+    {
+        "Title": "Show HN: Lowfat \u2013 pluggable CLI filter that saved 91.8% of my LLM tokens",
+        "Score": "138 points",
+        "comment": "70\u00a0comments"
+    },
+    {
+        "Title": "AI Can't Care",
+        "Score": "5 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Changing how we develop Ladybird",
+        "Score": "847 points",
+        "comment": "541\u00a0comments"
+    },
+    {
+        "Title": "Azure Linux 4.0 is Microsoft's first general-purpose Linux",
+        "Score": "205 points",
+        "comment": "145\u00a0comments"
+    },
+    {
+        "Title": "Entanglement Builds Space-Time. Now \"Magic\" Gives It Gravity",
+        "Score": "182 points",
+        "comment": "173\u00a0comments"
+    },
+    {
+        "Title": "\"Maybe later\" was a feature",
+        "Score": "94 points",
+        "comment": "35\u00a0comments"
+    },
+    {
+        "Title": "No Let, No Rec, No Problem: A Gentler Introduction to the Y and Z Combinators",
+        "Score": "52 points",
+        "comment": "9\u00a0comments"
+    },
+    {
+        "Title": "Nordstjernen 1.0",
+        "Score": "51 points",
+        "comment": "21\u00a0comments"
+    },
+    {
+        "Title": "Europe's largest Copper Age tomb: children's bones show ancient health crisis",
+        "Score": "32 points",
+        "comment": "5\u00a0comments"
+    },
+    {
+        "Title": "Fine-tuning an LLM to write docs like it's 1995",
+        "Score": "189 points",
+        "comment": "66\u00a0comments"
+    },
+    {
+        "Title": "ESP32 Bit Pirate, a Hardware Hacking Tool with WebCLI That Speaks Every Protocol",
+        "Score": "200 points",
+        "comment": "47\u00a0comments"
+    },
+    {
+        "Title": "Mathematician solves origami donut efficiency challenge with fewest folds",
+        "Score": "7 points",
+        "comment": "3\u00a0comments"
+    },
+    {
+        "Title": "Inside FAISS: Billion-Scale Similarity Search",
+        "Score": "66 points",
+        "comment": "5\u00a0comments"
+    },
+    {
+        "Title": "Did Claude increase bugs in rsync?",
+        "Score": "479 points",
+        "comment": "492\u00a0comments"
+    },
+    {
+        "Title": "Aging and Eye Problems",
+        "Score": "107 points",
+        "comment": "68\u00a0comments"
+    },
+    {
+        "Title": "Lee Kuan Yew's Singapore Story (2023)",
+        "Score": "160 points",
+        "comment": "178\u00a0comments"
+    },
+    {
+        "Title": "Show HN: ABC Classic 100 Rankings visualised",
+        "Score": "34 points",
+        "comment": "17\u00a0comments"
+    },
+    {
+        "Title": "Open Code Review \u2013 An AI-powered code review CLI tool",
+        "Score": "270 points",
+        "comment": "68\u00a0comments"
+    },
+    {
+        "Title": "Meta's ships facial recognition on smart glasses",
+        "Score": "322 points",
+        "comment": "294\u00a0comments"
+    },
+    {
+        "Title": "Do transformers need three projections? Systematic study of QKV variants",
+        "Score": "216 points",
+        "comment": "46\u00a0comments"
+    },
+    {
+        "Title": "Exact UNORM8 to Float",
+        "Score": "6 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Mantine-datatable (and others) compromised \u2013 owner account suspended",
+        "Score": "69 points",
+        "comment": "28\u00a0comments"
+    },
+    {
+        "Title": "Leap in DNA synthesis slashes time to build new genetic sequences",
+        "Score": "117 points",
+        "comment": "34\u00a0comments"
+    },
+    {
+        "Title": "How to Not Let Them Get Away with It: The Mathematics of Infinite Exploitation",
+        "Score": "7 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Dutch gov't will only allow European company to operate DigiD platform",
+        "Score": "275 points",
+        "comment": "89\u00a0comments"
+    },
+    {
+        "Title": "Running Python code in a sandbox with MicroPython and WASM",
+        "Score": "11 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "I led the U.S. CDC response to the 2014 Ebola epidemic",
+        "Score": "20 points",
+        "comment": "2\u00a0comments"
+    },
+    {
+        "Title": "P/E Tells You the Price. Reality Gap Tells You the Delusion",
+        "Score": "31 points",
+        "comment": "8\u00a0comments"
+    },
+    {
+        "Title": "databow: a Rust CLI to query any database with an ADBC driver",
+        "Score": "115 points",
+        "comment": "23\u00a0comments"
+    },
+    {
+        "Title": "Texas is America Inc's new centre of gravity",
+        "Score": "37 points",
+        "comment": "30\u00a0comments"
+    },
+    {
+        "Title": "SpaceX, Other Mega IPOs Denied Fast Index Entry by S&P",
+        "Score": "1026 points",
+        "comment": "505\u00a0comments"
+    },
+    {
+        "Title": "C++: The Documentary",
+        "Score": "408 points",
+        "comment": "302\u00a0comments"
+    },
+    {
+        "Title": "They\u2019re made out of weights",
+        "Score": "1501 points",
+        "comment": "683\u00a0comments"
+    },
+    {
+        "Title": "Getting silly with C, part and((int*)1)[-1]",
+        "Score": "18 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "The IsUpMap lets you check the status of over 100 major sites at once",
+        "Score": "125 points",
+        "comment": "46\u00a0comments"
+    },
+    {
+        "Title": "VoidZero Is Joining Cloudflare",
+        "Score": "677 points",
+        "comment": "301\u00a0comments"
+    },
+    {
+        "Title": "Samurai City",
+        "Score": "209 points",
+        "comment": "46\u00a0comments"
+    },
+    {
+        "Title": "I built a black-and-white e-ink display to stop checking my phone 60 times a day",
+        "Score": "5 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "When AI Builds Itself: Our progress toward recursive self-improvement",
+        "Score": "516 points",
+        "comment": "689\u00a0comments"
+    },
+    {
+        "Title": "GrapheneOS user reported to authorities for using GrapheneOS",
+        "Score": "422 points",
+        "comment": "406\u00a0comments"
+    },
+    {
+        "Title": "Warren's Abstract Machine: A Tutorial Reconstruction",
+        "Score": "22 points",
+        "comment": "2\u00a0comments"
+    },
+    {
+        "Title": "Failing grades soar with AI usage, dwindling math skills in Berkeley CS classes",
+        "Score": "819 points",
+        "comment": "784\u00a0comments"
+    },
+    {
+        "Title": "Anthropic's open-source framework for AI-powered vulnerability discovery",
+        "Score": "529 points",
+        "comment": "141\u00a0comments"
+    },
+    {
+        "Title": "IPv6 zones in URLs are a mistake",
+        "Score": "146 points",
+        "comment": "135\u00a0comments"
+    },
+    {
+        "Title": "KVarN: Native vLLM backend for KV-cache quantization by Huawei",
+        "Score": "143 points",
+        "comment": "16\u00a0comments"
+    },
+    {
+        "Title": "Watching a Z80 from an RP2350",
+        "Score": "51 points",
+        "comment": "9\u00a0comments"
+    },
+    {
+        "Title": "Accidentally deleted subscriptions for chat integrations (Slack and MS Teams)",
+        "Score": "123 points",
+        "comment": "44\u00a0comments"
+    },
+    {
+        "Title": "Learn SQL Once, Use It for 30 Years",
+        "Score": "315 points",
+        "comment": "224\u00a0comments"
+    },
+    {
+        "Title": "Delacroix's Entry of the Crusaders into Constantinople Restored",
+        "Score": "66 points",
+        "comment": "26\u00a0comments"
+    },
+    {
+        "Title": "Do the Hardest Thing",
+        "Score": "87 points",
+        "comment": "53\u00a0comments"
+    },
+    {
+        "Title": "Show HN: On-device transcriber that's 97% accurate at identifying speakers",
+        "Score": "22 points",
+        "comment": "6\u00a0comments"
+    },
+    {
+        "Title": "Meta enables ADB on deprecated Portal devices [video]",
+        "Score": "300 points",
+        "comment": "123\u00a0comments"
+    },
+    {
+        "Title": "Go Experiments Explained",
+        "Score": "82 points",
+        "comment": "25\u00a0comments"
+    },
+    {
+        "Title": "The Causes of Long Covid",
+        "Score": "162 points",
+        "comment": "116\u00a0comments"
+    },
+    {
+        "Title": "Qtile macOS-Style Screenshot Utility",
+        "Score": "4 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Gemma 4 12B: A unified, encoder-free multimodal model",
+        "Score": "1050 points",
+        "comment": "392\u00a0comments"
+    },
+    {
+        "Title": "I'm skeptical about efforts to revolutionize schooling",
+        "Score": "302 points",
+        "comment": "526\u00a0comments"
+    },
+    {
+        "Title": "At the Autograph Show",
+        "Score": "36 points",
+        "comment": "2\u00a0comments"
+    },
+    {
+        "Title": "Elixir v1.20: Now a gradually typed language",
+        "Score": "986 points",
+        "comment": "408\u00a0comments"
+    },
+    {
+        "Title": "WiFi Time",
+        "Score": "129 points",
+        "comment": "10\u00a0comments"
+    },
+    {
+        "Title": "Life is too short for a slow terminal",
+        "Score": "5 points",
+        "comment": "2\u00a0comments"
+    },
+    {
+        "Title": "Under Notre Dame, a 'dig of the century' unearths 1,700 years of history",
+        "Score": "175 points",
+        "comment": "48\u00a0comments"
+    },
+    {
+        "Title": "Linear Cosine Palettes(2025)",
+        "Score": "56 points",
+        "comment": "2\u00a0comments"
+    },
+    {
+        "Title": "Ian's Secure Shoelace Knot",
+        "Score": "588 points",
+        "comment": "223\u00a0comments"
+    },
+    {
+        "Title": "Ask HN: What is your (AI) dev tech stack / workflow?",
+        "Score": "143 points",
+        "comment": "125\u00a0comments"
+    },
+    {
+        "Title": "Queen bees emerge from special wax chambers",
+        "Score": "103 points",
+        "comment": "27\u00a0comments"
+    },
+    {
+        "Title": "Hacker News, Sans AI",
+        "Score": "175 points",
+        "comment": "97\u00a0comments"
+    },
+    {
+        "Title": "Artificial intelligence is not conscious \u2013 Ted Chiang",
+        "Score": "774 points",
+        "comment": "1357\u00a0comments"
+    },
+    {
+        "Title": "PlayStation Architecture",
+        "Score": "348 points",
+        "comment": "69\u00a0comments"
+    },
+    {
+        "Title": "Retro-Tech Parenting",
+        "Score": "342 points",
+        "comment": "239\u00a0comments"
+    },
+    {
+        "Title": "Thumbnail-sized thrusters could take CubeSats to Mars",
+        "Score": "4 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Ask HN: So what happened to Facebook \"localhost\" tracking?",
+        "Score": "101 points",
+        "comment": "100\u00a0comments"
+    },
+    {
+        "Title": "Making Debian or Fedora persistent live images",
+        "Score": "89 points",
+        "comment": "13\u00a0comments"
+    },
+    {
+        "Title": "Magenta RealTime 2: Open and Local Live Music Models",
+        "Score": "65 points",
+        "comment": "11\u00a0comments"
+    },
+    {
+        "Title": "Uber's $1,500/month AI limit is a useful signal for AI tool pricing",
+        "Score": "617 points",
+        "comment": "762\u00a0comments"
+    },
+    {
+        "Title": "Every Byte Matters",
+        "Score": "272 points",
+        "comment": "148\u00a0comments"
+    },
+    {
+        "Title": "Ohbin \u2013 uv wrapper for installing tools from GitHub",
+        "Score": "35 points",
+        "comment": "17\u00a0comments"
+    },
+    {
+        "Title": "3D-printed book turns its own G-code into raised lettering",
+        "Score": "85 points",
+        "comment": "30\u00a0comments"
+    },
+    {
+        "Title": "Kiki \u2013 a tiny homepage construction kit with a small footprint",
+        "Score": "139 points",
+        "comment": "85\u00a0comments"
+    },
+    {
+        "Title": "Show HN: My Terminal Waifu",
+        "Score": "7 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Bumblebees show advanced problem-solving skills in new experiment",
+        "Score": "4 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Alan Kay on \"Should web browsers have stuck to being document viewers?\"",
+        "Score": "14 points",
+        "comment": "6\u00a0comments"
+    },
+    {
+        "Title": "thunderbolt-ibverbs: We have InfiniBand at home",
+        "Score": "125 points",
+        "comment": "19\u00a0comments"
+    },
+    {
+        "Title": "JLink JTAG Access on the Pinecil",
+        "Score": "67 points",
+        "comment": "16\u00a0comments"
+    },
+    {
+        "Title": "Trump administration dismantles critical ocean-floor observation network",
+        "Score": "8 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Alzheimer's patient gets back speech, bladder control and memory in drug trial",
+        "Score": "30 points",
+        "comment": "7\u00a0comments"
+    },
+    {
+        "Title": "Programmers will document for Claude, but not for each other",
+        "Score": "184 points",
+        "comment": "156\u00a0comments"
+    },
+    {
+        "Title": "I was recently diagnosed with anti-NMDA receptor encephalitis",
+        "Score": "747 points",
+        "comment": "248\u00a0comments"
+    },
+    {
+        "Title": "Ableton Extensions SDK",
+        "Score": "170 points",
+        "comment": "95\u00a0comments"
+    },
+    {
+        "Title": "Show HN: Edsger \u2013 A handwritten Clojure REPL for the reMarkable 2",
+        "Score": "258 points",
+        "comment": "34\u00a0comments"
+    },
+    {
+        "Title": "Meteor Explodes over Massachusetts",
+        "Score": "164 points",
+        "comment": "96\u00a0comments"
+    },
+    {
+        "Title": "The newest Instagram \u201cexploit\u201d is the goofiest I've seen",
+        "Score": "2195 points",
+        "comment": "487\u00a0comments"
+    },
+    {
+        "Title": "DNS is for people, not for IT infrastructure",
+        "Score": "62 points",
+        "comment": "97\u00a0comments"
+    },
+    {
+        "Title": "A Man Who Reads Books for a Living",
+        "Score": "183 points",
+        "comment": "123\u00a0comments"
+    },
+    {
+        "Title": "French-Iranian author Marjane Satrapi, author of 'Persepolis', dies at 56",
+        "Score": "453 points",
+        "comment": "129\u00a0comments"
+    },
+    {
+        "Title": "Branchless Quicksort faster than std:sort and pdqsort with C and C++ API",
+        "Score": "213 points",
+        "comment": "71\u00a0comments"
+    },
+    {
+        "Title": "Sum-product, unit distances, and number fields",
+        "Score": "65 points",
+        "comment": "18\u00a0comments"
+    },
+    {
+        "Title": "Communication on European Tech Sovereignty, and an EU Open-Source Strategy",
+        "Score": "99 points",
+        "comment": "64\u00a0comments"
+    },
+    {
+        "Title": "Forest Service says it's closing offices to cut costs. The math doesn't add up",
+        "Score": "11 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Show HN: I reverse-engineered the world maps of Test Drive III (1990 DOS game)",
+        "Score": "215 points",
+        "comment": "56\u00a0comments"
+    },
+    {
+        "Title": "Show HN: Omni \u2013 Local-first multimodal file search on macOS",
+        "Score": "5 points",
+        "comment": "2\u00a0comments"
+    },
+    {
+        "Title": "Gooey: A GPU-accelerated UI framework for Zig",
+        "Score": "197 points",
+        "comment": "85\u00a0comments"
+    },
+    {
+        "Title": "A USB-connected speaker can infect a PC without ever being touched",
+        "Score": "5 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Castor: CERN Advanced STORage Manager",
+        "Score": "64 points",
+        "comment": "31\u00a0comments"
+    },
+    {
+        "Title": "U.S. Military Turned GPS into a Global \"Numbers Station\"",
+        "Score": "109 points",
+        "comment": "2\u00a0comments"
+    },
+    {
+        "Title": "I built a vulnerable app and spent $1,500 seeing if LLMs could hack it",
+        "Score": "399 points",
+        "comment": "216\u00a0comments"
+    },
+    {
+        "Title": "Show HN: Prela \u2013 Purely Algebraic Relation Combinators",
+        "Score": "71 points",
+        "comment": "13\u00a0comments"
+    },
+    {
+        "Title": "Meta workers can opt out of being tracked at work up to 30 min",
+        "Score": "766 points",
+        "comment": "742\u00a0comments"
+    },
+    {
+        "Title": "OpenCV 5 Is Here: The Biggest Leap in Years for Computer Vision",
+        "Score": "13 points",
+        "comment": "2\u00a0comments"
+    },
+    {
+        "Title": "DaVinci Resolve 21",
+        "Score": "541 points",
+        "comment": "274\u00a0comments"
+    },
+    {
+        "Title": "Pwnd Blaster: Hacking your PC using your speaker without ever touching it",
+        "Score": "693 points",
+        "comment": "120\u00a0comments"
+    },
+    {
+        "Title": "Show HN: Mercek \u2013 A Desktop IDE for AWS ECS",
+        "Score": "62 points",
+        "comment": "29\u00a0comments"
+    },
+    {
+        "Title": "Launch HN: Hyper (YC P26) \u2013 Company brain to power agentic development",
+        "Score": "77 points",
+        "comment": "76\u00a0comments"
+    },
+    {
+        "Title": "\"Bricks & minifigs can stuff it\" \u2013 Patreon CEO [video]",
+        "Score": "10 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Show HN: Uruky (EU-based Kagi alternative) now has Image Search and URL Rewrites",
+        "Score": "232 points",
+        "comment": "223\u00a0comments"
+    },
+    {
+        "Title": "A Mathematician's Lament (2002) [pdf]",
+        "Score": "110 points",
+        "comment": "11\u00a0comments"
+    },
+    {
+        "Title": "UK media fails to disclose defence sector links in nearly 60% of cases",
+        "Score": "380 points",
+        "comment": "216\u00a0comments"
+    },
+    {
+        "Title": "Pluto.jl 1.0 release \u2013 reactive notebook for Julia",
+        "Score": "230 points",
+        "comment": "39\u00a0comments"
+    },
+    {
+        "Title": "WSL 2 is getting faster Windows file system access",
+        "Score": "179 points",
+        "comment": "166\u00a0comments"
+    },
+    {
+        "Title": "Squillions: How money laundering won",
+        "Score": "204 points",
+        "comment": "225\u00a0comments"
+    },
+    {
+        "Title": "Microsoft Compromised Again. Shuts Down Azure Function GitHub Actions",
+        "Score": "39 points",
+        "comment": "2\u00a0comments"
+    },
+    {
+        "Title": "Wslc: A native Linux container runtime for Windows",
+        "Score": "22 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "What I've learned about the trombone",
+        "Score": "101 points",
+        "comment": "81\u00a0comments"
+    },
+    {
+        "Title": "New Treatment for Alzheimer's and Parkinson's Discovered in Japan",
+        "Score": "18 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Claude Code and Codex can have real-time conversation via Git",
+        "Score": "114 points",
+        "comment": "78\u00a0comments"
+    },
+    {
+        "Title": "How turkey hacked the hair-transplant industry",
+        "Score": "137 points",
+        "comment": "215\u00a0comments"
+    },
+    {
+        "Title": "Patching my guitar amp's firmware",
+        "Score": "146 points",
+        "comment": "22\u00a0comments"
+    },
+    {
+        "Title": "1-Click GitHub Token Stealing via a VSCode Bug",
+        "Score": "659 points",
+        "comment": "100\u00a0comments"
+    },
+    {
+        "Title": "Self-hosted dev sandboxes with preview URLs (Docker, Go, no K8s)",
+        "Score": "109 points",
+        "comment": "34\u00a0comments"
+    },
+    {
+        "Title": "Preparing for KDE Plasma's Last X11-Supported Release",
+        "Score": "237 points",
+        "comment": "375\u00a0comments"
+    },
+    {
+        "Title": "AI outperforms law professors in Stanford Law study",
+        "Score": "411 points",
+        "comment": "357\u00a0comments"
+    },
+    {
+        "Title": "Good Careers at Bad Companies",
+        "Score": "14 points",
+        "comment": "10\u00a0comments"
+    },
+    {
+        "Title": "The ways we contain Claude across products",
+        "Score": "226 points",
+        "comment": "105\u00a0comments"
+    },
+    {
+        "Title": "Nabokov's pale fire: the lost 'father of all hypertext demos'? (2011)",
+        "Score": "133 points",
+        "comment": "31\u00a0comments"
+    },
+    {
+        "Title": "How we index images for RAG",
+        "Score": "204 points",
+        "comment": "29\u00a0comments"
+    },
+    {
+        "Title": "Stop Ruining It",
+        "Score": "324 points",
+        "comment": "160\u00a0comments"
+    },
+    {
+        "Title": "Reverse-Engineered Userspace Driver for Asus ZenVision Lid OLED on Linux\"",
+        "Score": "59 points",
+        "comment": "13\u00a0comments"
+    },
+    {
+        "Title": "Omnipod 5 is coming to Loop and Trio this summer",
+        "Score": "5 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Dumbphone 2",
+        "Score": "76 points",
+        "comment": "65\u00a0comments"
+    },
+    {
+        "Title": "U of T researchers demonstrate AI worm could target any online device",
+        "Score": "150 points",
+        "comment": "46\u00a0comments"
+    },
+    {
+        "Title": "World Food Programme breach exposes data of 600k vulnerable Gazan families",
+        "Score": "4 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Fidonet: Technology, Use, Tools, and History (1993)",
+        "Score": "183 points",
+        "comment": "89\u00a0comments"
+    },
+    {
+        "Title": "Ask HN: Does robotics capabilities research accelerate AGI timelines?",
+        "Score": "8 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Embryos shape their limbs: a key discovery of \"genetic brakes\"",
+        "Score": "77 points",
+        "comment": "7\u00a0comments"
+    },
+    {
+        "Title": "U.S. Army Corps of Engineers Bay Model",
+        "Score": "234 points",
+        "comment": "61\u00a0comments"
+    },
+    {
+        "Title": "CP/M-86 & MS-DOS Cross Development Environment",
+        "Score": "54 points",
+        "comment": "18\u00a0comments"
+    },
+    {
+        "Title": "HP re-releases classic computer science calculator: The HP-16C",
+        "Score": "214 points",
+        "comment": "128\u00a0comments"
+    },
+    {
+        "Title": "A Starbucks marketing stunt spiralled into mass boycotts in South Korea",
+        "Score": "13 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Gaussian Point Splatting",
+        "Score": "189 points",
+        "comment": "71\u00a0comments"
+    },
+    {
+        "Title": "The desperation of NYTimes",
+        "Score": "388 points",
+        "comment": "317\u00a0comments"
+    },
+    {
+        "Title": "The Pentagon is running an AI propaganda mill targeting Latin America",
+        "Score": "118 points",
+        "comment": "107\u00a0comments"
+    },
+    {
+        "Title": "Roku LT Operating System open source distribution",
+        "Score": "138 points",
+        "comment": "69\u00a0comments"
+    },
+    {
+        "Title": "Mathematicians issue warning as AI rapidly gains ground",
+        "Score": "293 points",
+        "comment": "348\u00a0comments"
+    },
+    {
+        "Title": "How big tobacco helped shape the design of ultra-processed foods",
+        "Score": "18 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Bitcoin's star fades, as investors flock to lustre of AI and megacap IPOs",
+        "Score": "10 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Google Buying Computing from SpaceX in $920M-a-Month Deal",
+        "Score": "37 points",
+        "comment": "3\u00a0comments"
+    },
+    {
+        "Title": "Training-Free Single-Image Diffusion Models",
+        "Score": "4 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Show HN: Eyeball",
+        "Score": "292 points",
+        "comment": "88\u00a0comments"
+    },
+    {
+        "Title": "The Unreasonable Redundancy of Nature's Protein Folds",
+        "Score": "158 points",
+        "comment": "59\u00a0comments"
+    },
+    {
+        "Title": "Age verification for social media, the beginning of the end for a free internet?",
+        "Score": "585 points",
+        "comment": "524\u00a0comments"
+    },
+    {
+        "Title": "Sagrada Fam\u00edlia Lego set",
+        "Score": "206 points",
+        "comment": "161\u00a0comments"
+    },
+    {
+        "Title": "Latent Agents: A Post-Training Procedure for Internalized Multi-Agent Debate",
+        "Score": "29 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "MacBook Neo is so popular that Apple doubled production",
+        "Score": "426 points",
+        "comment": "504\u00a0comments"
+    },
+    {
+        "Title": "MAI-Code-1-Flash",
+        "Score": "539 points",
+        "comment": "254\u00a0comments"
+    },
+    {
+        "Title": "Leiden Declaration on Artificial Intelligence and Mathematics",
+        "Score": "138 points",
+        "comment": "79\u00a0comments"
+    },
+    {
+        "Title": "External Clock Generation on RTX 50 Series",
+        "Score": "33 points",
+        "comment": "5\u00a0comments"
+    },
+    {
+        "Title": "Open Repair Data Standard",
+        "Score": "162 points",
+        "comment": "13\u00a0comments"
+    },
+    {
+        "Title": "32GB of DDR5 now costs $375 \u2013 AI shortage continues to squeeze PC building",
+        "Score": "429 points",
+        "comment": "391\u00a0comments"
+    },
+    {
+        "Title": "The \u00dc Programming Language",
+        "Score": "63 points",
+        "comment": "69\u00a0comments"
+    },
+    {
+        "Title": "Adafruit receives demand letter from Fenwick legal counsel on behalf of Flux.ai",
+        "Score": "679 points",
+        "comment": "282\u00a0comments"
+    },
+    {
+        "Title": "Use your Nvidia GPU's VRAM as swap space on Linux",
+        "Score": "468 points",
+        "comment": "125\u00a0comments"
+    },
+    {
+        "Title": "Trump signs downsized AI order after weeks of reversals",
+        "Score": "239 points",
+        "comment": "172\u00a0comments"
+    },
+    {
+        "Title": "Neocities domain suspended by Namecheap for unrelated court case",
+        "Score": "49 points",
+        "comment": "3\u00a0comments"
+    },
+    {
+        "Title": "A Post-Quantum Future for Let's Encrypt",
+        "Score": "317 points",
+        "comment": "165\u00a0comments"
+    },
+    {
+        "Title": "She won a religious exemption from using AI at work",
+        "Score": "24 points",
+        "comment": "16\u00a0comments"
+    },
+    {
+        "Title": "What appear to be biochemical processes may be a natural feature of geology",
+        "Score": "270 points",
+        "comment": "111\u00a0comments"
+    },
+    {
+        "Title": "Stop Killing Games",
+        "Score": "235 points",
+        "comment": "272\u00a0comments"
+    },
+    {
+        "Title": "One attribute to rule them all",
+        "Score": "5 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Fake Money Built America",
+        "Score": "37 points",
+        "comment": "18\u00a0comments"
+    },
+    {
+        "Title": "SVG of a Hamster Playing Table-Tennis",
+        "Score": "21 points",
+        "comment": "18\u00a0comments"
+    },
+    {
+        "Title": "Capstone \u2013 multi-platform, multi-architecture disassembly framework",
+        "Score": "113 points",
+        "comment": "5\u00a0comments"
+    },
+    {
+        "Title": "New Texas Instruments 5532 chips are not the 5532s we\u2019ve used for decades",
+        "Score": "123 points",
+        "comment": "54\u00a0comments"
+    },
+    {
+        "Title": "AI, Ashby Engineering, and the future",
+        "Score": "60 points",
+        "comment": "55\u00a0comments"
+    },
+    {
+        "Title": "US attorney opens investigation into California elections-sends prosecutor to LA",
+        "Score": "15 points",
+        "comment": "3\u00a0comments"
+    },
+    {
+        "Title": "Valve says it's ready to launch the Steam Machine this summer",
+        "Score": "74 points",
+        "comment": "13\u00a0comments"
+    },
+    {
+        "Title": "Wind and solar generated more power than gas globally in April 2026",
+        "Score": "400 points",
+        "comment": "384\u00a0comments"
+    },
+    {
+        "Title": "Launch HN: Expanse (YC P26) \u2013 Unlock Wasted GPU Capacity",
+        "Score": "101 points",
+        "comment": "27\u00a0comments"
+    },
+    {
+        "Title": "Meta weighs big equity raising after blockbuster Google deal",
+        "Score": "8 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Brume is a 24-voice multi-timbral desktop synth for the CM5",
+        "Score": "70 points",
+        "comment": "33\u00a0comments"
+    },
+    {
+        "Title": "A new YC tool promises \"your code never leaves your machine.\" It does",
+        "Score": "5 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Can the stockmarket swallow Anthropic, SpaceX and OpenAI?",
+        "Score": "718 points",
+        "comment": "1265\u00a0comments"
+    },
+    {
+        "Title": "Show HN: Local-first fast CPU image to text for screenshots, PDFs, webpages",
+        "Score": "14 points",
+        "comment": "17\u00a0comments"
+    },
+    {
+        "Title": "ESP32-S31",
+        "Score": "359 points",
+        "comment": "200\u00a0comments"
+    },
+    {
+        "Title": "Multicore suppport for DOS is real \u2013 partly",
+        "Score": "95 points",
+        "comment": "16\u00a0comments"
+    },
+    {
+        "Title": "My thoughts after using Clojure for about a month",
+        "Score": "318 points",
+        "comment": "192\u00a0comments"
+    },
+    {
+        "Title": "Ask HN: Who is hiring? (June 2026)",
+        "Score": "239 points",
+        "comment": "430\u00a0comments"
+    },
+    {
+        "Title": "CSS-Native Parallax Effect",
+        "Score": "146 points",
+        "comment": "58\u00a0comments"
+    },
+    {
+        "Title": "Ask HN: How do you find deep technical content?",
+        "Score": "36 points",
+        "comment": "28\u00a0comments"
+    },
+    {
+        "Title": "The Kyle Kingsbury Podcast Podcast \u2013 Episode 1 \u2013 Alex Dripchak",
+        "Score": "14 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "DIY Bipedal Robot Used Pneumatic \"Air-Muscles\" Instead of Motors",
+        "Score": "74 points",
+        "comment": "24\u00a0comments"
+    },
+    {
+        "Title": "Are Memories Transferable \u2013 Or Edible?",
+        "Score": "7 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Gmail thinks I'm stupid, so I left",
+        "Score": "1177 points",
+        "comment": "825\u00a0comments"
+    },
+    {
+        "Title": "Show HN: Nutrepedia \u2013 Nutrition info in 29 locales built with Clojure and Htmx",
+        "Score": "135 points",
+        "comment": "29\u00a0comments"
+    },
+    {
+        "Title": "Show HN: Altersend \u2013 File sharing without cloud",
+        "Score": "13 points",
+        "comment": "6\u00a0comments"
+    },
+    {
+        "Title": "Ask HN: My competitors have flawed products but I can't get traction",
+        "Score": "10 points",
+        "comment": "11\u00a0comments"
+    },
+    {
+        "Title": "Let's celebrate work that is 100% human-made",
+        "Score": "69 points",
+        "comment": "84\u00a0comments"
+    },
+    {
+        "Title": "Bad MCP design costs your agent 5x more tokens",
+        "Score": "10 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Show HN: Cost.dev (YC W21) \u2013 making agents cost-aware and cheaper to call",
+        "Score": "35 points",
+        "comment": "22\u00a0comments"
+    },
+    {
+        "Title": "Ask HN: Are orbital data centers possible / a good idea?",
+        "Score": "23 points",
+        "comment": "39\u00a0comments"
+    },
+    {
+        "Title": "Engine9000 \u2013 Amiga Game Engine",
+        "Score": "4 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Why Janet? (2023)",
+        "Score": "488 points",
+        "comment": "266\u00a0comments"
+    },
+    {
+        "Title": "An announcement from the Steering Council regarding the JIT project",
+        "Score": "12 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Symbolica 2.0: Programmable Symbols for Python and Rust",
+        "Score": "4 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "QBE \u2013 Compiler Backend \u2013 1.3",
+        "Score": "109 points",
+        "comment": "36\u00a0comments"
+    },
+    {
+        "Title": "Nvidia RTX Spark",
+        "Score": "427 points",
+        "comment": "420\u00a0comments"
+    },
+    {
+        "Title": "New IronWorm malware hits 36 packages in NPM supply-chain attack",
+        "Score": "22 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Semantic reification: how to generate UB-free code with arbitrary control flow?",
+        "Score": "17 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Show HN: Hitoku Draft \u2013 Context aware local assistant",
+        "Score": "20 points",
+        "comment": "6\u00a0comments"
+    },
+    {
+        "Title": "Dutch solar owners asked to switch off during peak to ease distribution crisis",
+        "Score": "12 points",
+        "comment": "3\u00a0comments"
+    },
+    {
+        "Title": "Love systemd timers",
+        "Score": "394 points",
+        "comment": "296\u00a0comments"
+    },
+    {
+        "Title": "Show HN: NoiR Code \u2013 because QR sounds similar to \"noir\"",
+        "Score": "12 points",
+        "comment": "6\u00a0comments"
+    },
+    {
+        "Title": "Show HN: Mnemo \u2013 local-first AI memory layer for any LLM (Rust, SQLite,petgraph)",
+        "Score": "59 points",
+        "comment": "28\u00a0comments"
+    },
+    {
+        "Title": "Machine-verified proof that M3P \u2208 P and P = NP via Pedigree Polytopes",
+        "Score": "6 points",
+        "comment": "4\u00a0comments"
+    },
+    {
+        "Title": "4K years ago, Mohenjo-daro grew more equal over time",
+        "Score": "116 points",
+        "comment": "55\u00a0comments"
+    },
+    {
+        "Title": "Ask HN: Gin rummy strategies",
+        "Score": "24 points",
+        "comment": "4\u00a0comments"
+    },
+    {
+        "Title": "BYD will pay for any damage caused using it's autonomous driving technology",
+        "Score": "6 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Show HN: Boxes.dev: ditch localhost; run Claude Code and Codex in the cloud",
+        "Score": "101 points",
+        "comment": "74\u00a0comments"
+    },
+    {
+        "Title": "A Visual Guide to Gemma 4 12B",
+        "Score": "46 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Internet Age-Gates Are a Growing Global Threat",
+        "Score": "16 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Strace-ui, Bonsai_term, and the TUI renaissance",
+        "Score": "157 points",
+        "comment": "79\u00a0comments"
+    },
+    {
+        "Title": "What happens if Japan takes in zero immigrants?",
+        "Score": "42 points",
+        "comment": "170\u00a0comments"
+    },
+    {
+        "Title": "Google will pay SpaceX $920M per month for compute capacity",
+        "Score": "12 points",
+        "comment": "4\u00a0comments"
+    },
+    {
+        "Title": "Is This Hate Speech?",
+        "Score": "8 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Bringing Up DeepSeek-V4-Flash on AMD MI300X",
+        "Score": "120 points",
+        "comment": "23\u00a0comments"
+    },
+    {
+        "Title": "Ask HN: Is the web for machines (/llm.txt) the one we wished we had as humans?",
+        "Score": "36 points",
+        "comment": "55\u00a0comments"
+    },
+    {
+        "Title": "macOS needs its grid back",
+        "Score": "399 points",
+        "comment": "264\u00a0comments"
+    },
+    {
+        "Title": "Windows GOG DOS Games on M-Series Macs",
+        "Score": "168 points",
+        "comment": "86\u00a0comments"
+    },
+    {
+        "Title": "Are You Enjoying Our Linguine? (2025)",
+        "Score": "49 points",
+        "comment": "82\u00a0comments"
+    },
+    {
+        "Title": "A 10 year old Xeon is all you need",
+        "Score": "735 points",
+        "comment": "288\u00a0comments"
+    },
+    {
+        "Title": "Cloudflare Turnstile requiring fingerprintable WebGL",
+        "Score": "786 points",
+        "comment": "479\u00a0comments"
+    },
+    {
+        "Title": "Words of Type",
+        "Score": "130 points",
+        "comment": "14\u00a0comments"
+    },
+    {
+        "Title": "The advertising cartel coming to your web browser",
+        "Score": "246 points",
+        "comment": "70\u00a0comments"
+    },
+    {
+        "Title": "Show HN: Live breath detection and biofeedback from a phone microphone",
+        "Score": "67 points",
+        "comment": "26\u00a0comments"
+    },
+    {
+        "Title": "Google is quietly laying off staff in its cloud division",
+        "Score": "18 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "CT scans of BYD car parts",
+        "Score": "483 points",
+        "comment": "386\u00a0comments"
+    },
+    {
+        "Title": "Pass the Cherries: Review of Twilight of the Dons",
+        "Score": "6 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Flipper Zero Zig Template",
+        "Score": "158 points",
+        "comment": "19\u00a0comments"
+    },
+    {
+        "Title": "A visual introduction to kernel functions",
+        "Score": "3 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Ask HN: Who wants to be hired? (June 2026)",
+        "Score": "149 points",
+        "comment": "534\u00a0comments"
+    },
+    {
+        "Title": "'Bear-Repelling Poles' Attracting Attention; Developed by Man Who Faced Bear",
+        "Score": "4 points",
+        "comment": "3\u00a0comments"
+    },
+    {
+        "Title": "Show HN: Papernews \u2013 self-hosted daily newspaper PDF for your reMarkable",
+        "Score": "11 points",
+        "comment": "4\u00a0comments"
+    },
+    {
+        "Title": "Parsing XML EXIF from .avif files (plus a rant)",
+        "Score": "4 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "How is Groq raising more money?",
+        "Score": "155 points",
+        "comment": "69\u00a0comments"
+    },
+    {
+        "Title": "The Shift in Peering Threatening the Internet's Foundations",
+        "Score": "10 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "GitHub Copilot App",
+        "Score": "124 points",
+        "comment": "76\u00a0comments"
+    },
+    {
+        "Title": "Nasdaq falls 4% and suffers worst day since April 2025 traders flee chip stocks",
+        "Score": "16 points",
+        "comment": "4\u00a0comments"
+    },
+    {
+        "Title": "Linux Basics for Hackers (2019)",
+        "Score": "175 points",
+        "comment": "41\u00a0comments"
+    },
+    {
+        "Title": "Ask HN: How did you discover Hacker News?",
+        "Score": "9 points",
+        "comment": "22\u00a0comments"
+    },
+    {
+        "Title": "Something is jamming GPS over Europe. Here's what we found (Veritasium) [video]",
+        "Score": "8 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Why sophrosyne, an ancient Greek virtue, matters more than ever in the age of AI",
+        "Score": "7 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Angular v22",
+        "Score": "132 points",
+        "comment": "79\u00a0comments"
+    },
+    {
+        "Title": "Rootshell: A new E2EE email service hosted in Iceland",
+        "Score": "52 points",
+        "comment": "48\u00a0comments"
+    },
+    {
+        "Title": "Writing Portable ARM64 Assembly (2023)",
+        "Score": "62 points",
+        "comment": "27\u00a0comments"
+    },
+    {
+        "Title": "Alphabet announces $80B equity capital raise to expand AI infra and compute",
+        "Score": "255 points",
+        "comment": "236\u00a0comments"
+    },
+    {
+        "Title": "I built a ceiling projection mapping of the planes flying over my house",
+        "Score": "226 points",
+        "comment": "32\u00a0comments"
+    },
+    {
+        "Title": "Chipotlai Max",
+        "Score": "399 points",
+        "comment": "66\u00a0comments"
+    },
+    {
+        "Title": "OpenAI frontier models and Codex are now available on AWS",
+        "Score": "370 points",
+        "comment": "131\u00a0comments"
+    },
+    {
+        "Title": "Recovering Eric Graham's 1987 Amiga Juggler raytracer source code",
+        "Score": "40 points",
+        "comment": "15\u00a0comments"
+    },
+    {
+        "Title": "Microsoft builds MacBook Pro rival with NVIDIA-powered Surface Laptop Ultra",
+        "Score": "286 points",
+        "comment": "652\u00a0comments"
+    },
+    {
+        "Title": "Malicious npm packages detected across Red Hat Cloud Services",
+        "Score": "773 points",
+        "comment": "452\u00a0comments"
+    },
+    {
+        "Title": "The Pirate Bay Remains Resilient, 20 Years After the Raid",
+        "Score": "629 points",
+        "comment": "333\u00a0comments"
+    },
+    {
+        "Title": "GitHubDesktopPlus: Fork of GitHub Desktop for alt. git hosts & better UX",
+        "Score": "6 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "U.S. to dismantle system tracking Atlantic currents that are at risk of collapse",
+        "Score": "636 points",
+        "comment": "479\u00a0comments"
+    },
+    {
+        "Title": "Neo4j Acquires GraphAware for an Intelligence Analysis Alternative to Palantir",
+        "Score": "5 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Florida sues OpenAI and Sam Altman over AI risks",
+        "Score": "268 points",
+        "comment": "194\u00a0comments"
+    },
+    {
+        "Title": "Why Can't California Count?",
+        "Score": "16 points",
+        "comment": "29\u00a0comments"
+    },
+    {
+        "Title": "The British university is dying, and it seems that almost nobody cares",
+        "Score": "25 points",
+        "comment": "16\u00a0comments"
+    },
+    {
+        "Title": "Book Dedications",
+        "Score": "36 points",
+        "comment": "14\u00a0comments"
+    },
+    {
+        "Title": "Codex Discovered a Hidden HTTP/2 Bomb",
+        "Score": "53 points",
+        "comment": "7\u00a0comments"
+    },
+    {
+        "Title": "Expanding Project Glasswing",
+        "Score": "180 points",
+        "comment": "251\u00a0comments"
+    },
+    {
+        "Title": "Mornings and nights no longer exist at 47C: A day in the hottest place in India",
+        "Score": "149 points",
+        "comment": "138\u00a0comments"
+    },
+    {
+        "Title": "Misu",
+        "Score": "8 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Bitcoin cracks $60k, sinking to lowest level since October 2024",
+        "Score": "7 points",
+        "comment": "6\u00a0comments"
+    },
+    {
+        "Title": "Launch HN: Rudus (YC P26) \u2013 AI for concrete contractors",
+        "Score": "39 points",
+        "comment": "14\u00a0comments"
+    },
+    {
+        "Title": "SpaceX must wait a year to be part of S&P 500",
+        "Score": "8 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "The Speed of Prototyping in the Age of AI",
+        "Score": "200 points",
+        "comment": "101\u00a0comments"
+    },
+    {
+        "Title": "Anthropic confidentially submits draft S-1 to the SEC",
+        "Score": "530 points",
+        "comment": "451\u00a0comments"
+    },
+    {
+        "Title": "Restartable Sequences",
+        "Score": "253 points",
+        "comment": "68\u00a0comments"
+    },
+    {
+        "Title": "Several injured in Boeing 787 nose-gear collapse in Frankfurt",
+        "Score": "71 points",
+        "comment": "81\u00a0comments"
+    },
+    {
+        "Title": "A walking tour of surveillance infrastructure in Seattle (2020)",
+        "Score": "413 points",
+        "comment": "318\u00a0comments"
+    },
+    {
+        "Title": "As EV batteries improve, ChargePoint debuts 600 kW fast charger",
+        "Score": "18 points",
+        "comment": "12\u00a0comments"
+    },
+    {
+        "Title": "Tony Gilroy Accepts Award for Andor: \"Fuck the Empire \"",
+        "Score": "63 points",
+        "comment": "20\u00a0comments"
+    },
+    {
+        "Title": "How the Largest IPO in history became your problem",
+        "Score": "10 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Unicode Cyrillic Letter Multiocular O",
+        "Score": "8 points",
+        "comment": "2\u00a0comments"
+    },
+    {
+        "Title": "REST3D: Reconstructing Physically Stable 3D Scenes from a Single Image",
+        "Score": "26 points",
+        "comment": "2\u00a0comments"
+    },
+    {
+        "Title": "Show HN: RePlaya \u2013 self-hosted browser session replay with live tailing",
+        "Score": "50 points",
+        "comment": "8\u00a0comments"
+    },
+    {
+        "Title": "AI Agent Guidelines for CS336 at Stanford",
+        "Score": "501 points",
+        "comment": "153\u00a0comments"
+    },
+    {
+        "Title": "The blood cancer that became solvable",
+        "Score": "7 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Show HN: Concord \u2013 Discord in Terminal",
+        "Score": "8 points",
+        "comment": "2\u00a0comments"
+    },
+    {
+        "Title": "Dav2d",
+        "Score": "551 points",
+        "comment": "202\u00a0comments"
+    },
+    {
+        "Title": "Mysterious Next-Gen Aircraft Allegedly Spotted Near Area 51",
+        "Score": "11 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Algorithmic Theming Engines",
+        "Score": "19 points",
+        "comment": "3\u00a0comments"
+    },
+    {
+        "Title": "Sysadmining Like It's 2009",
+        "Score": "107 points",
+        "comment": "42\u00a0comments"
+    },
+    {
+        "Title": "S&P Global keeps fast index entry rules unchanged as SpaceX listing looms",
+        "Score": "49 points",
+        "comment": "5\u00a0comments"
+    },
+    {
+        "Title": "RAG Without Persona Modeling Fails Patient Clinical Relevance",
+        "Score": "7 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Why Custom Attributes in .NET Give Me Nightmares",
+        "Score": "96 points",
+        "comment": "28\u00a0comments"
+    },
+    {
+        "Title": "Using Git's rerere feature to escape recurring conflict hell",
+        "Score": "96 points",
+        "comment": "54\u00a0comments"
+    },
+    {
+        "Title": "Should you normalize RGB values by 255 or 256?",
+        "Score": "329 points",
+        "comment": "145\u00a0comments"
+    },
+    {
+        "Title": "Microsoft doubles down on controversial quantum computing claims",
+        "Score": "44 points",
+        "comment": "50\u00a0comments"
+    },
+    {
+        "Title": "Cessation of public development of Kefir C compiler",
+        "Score": "141 points",
+        "comment": "134\u00a0comments"
+    },
+    {
+        "Title": "Apple rejected my dictation app for using the accessibility API",
+        "Score": "314 points",
+        "comment": "166\u00a0comments"
+    },
+    {
+        "Title": "Chuwi Minibook X",
+        "Score": "409 points",
+        "comment": "305\u00a0comments"
+    },
+    {
+        "Title": "Show HN: Ideogram 4.0 \u2013 open-weight 9.3B text-to-image model",
+        "Score": "46 points",
+        "comment": "11\u00a0comments"
+    },
+    {
+        "Title": "Backpressure is all you need",
+        "Score": "219 points",
+        "comment": "119\u00a0comments"
+    },
+    {
+        "Title": "United Airlines 767 returns to Newark after Bluetooth name sparks alert",
+        "Score": "420 points",
+        "comment": "943\u00a0comments"
+    },
+    {
+        "Title": "Announcing Zstandard in Rust",
+        "Score": "63 points",
+        "comment": "7\u00a0comments"
+    },
+    {
+        "Title": "Buffy the Vampire Slayer, Ted Lasso, and Little Britain Actor Anthony Head Dies",
+        "Score": "20 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "'Bots have now passed human traffic online,' Cloudflare boss laments",
+        "Score": "13 points",
+        "comment": "2\u00a0comments"
+    },
+    {
+        "Title": "Advanced micro reactor achieves criticality in only two years",
+        "Score": "12 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "The Social Science Research Network Has Jumped the Shark",
+        "Score": "13 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Show HN: I embedded 685M public texts in 32 minutes (on 8x A100, Rust, TensorRT)",
+        "Score": "7 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Meta Silently Added Face-Recognition for Its Smart Glasses to Phones",
+        "Score": "31 points",
+        "comment": "12\u00a0comments"
+    },
+    {
+        "Title": "GoPro warned it may not survive",
+        "Score": "83 points",
+        "comment": "76\u00a0comments"
+    },
+    {
+        "Title": "Something is jamming GPS over Europe",
+        "Score": "17 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "How Artemis II livestreamed hi-def videos and images from the moon to Earth",
+        "Score": "5 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Debug Project",
+        "Score": "274 points",
+        "comment": "115\u00a0comments"
+    },
+    {
+        "Title": "When does fragmentation occur in the CUDA caching allocator?",
+        "Score": "15 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Building iOS Apps with Doom Emacs",
+        "Score": "82 points",
+        "comment": "11\u00a0comments"
+    },
+    {
+        "Title": "NSA using Anthropic's Mythos for cyber attacks",
+        "Score": "91 points",
+        "comment": "29\u00a0comments"
+    },
+    {
+        "Title": "1-Bit Bonsai Image 4B Image Generation for Local Devices",
+        "Score": "464 points",
+        "comment": "204\u00a0comments"
+    },
+    {
+        "Title": "I Must Attempt to Explain the Lego Scandal Rocking YouTube State of Utah",
+        "Score": "46 points",
+        "comment": "14\u00a0comments"
+    },
+    {
+        "Title": "Toy Story 5 shows 'terror' of children's screen addiction, says Tom Hanks",
+        "Score": "62 points",
+        "comment": "87\u00a0comments"
+    },
+    {
+        "Title": "Show HN: A CSS 3D Engine (no WebGL)",
+        "Score": "80 points",
+        "comment": "27\u00a0comments"
+    },
+    {
+        "Title": "Bot vs human traffic",
+        "Score": "148 points",
+        "comment": "80\u00a0comments"
+    },
+    {
+        "Title": "'World-first' vaccine designed by artificial intelligence",
+        "Score": "14 points",
+        "comment": "2\u00a0comments"
+    },
+    {
+        "Title": "Avian Visitors",
+        "Score": "137 points",
+        "comment": "20\u00a0comments"
+    },
+    {
+        "Title": "Show HN: Bio Glyph \u2013 Turn Your Face into a One-Line Drawing",
+        "Score": "21 points",
+        "comment": "18\u00a0comments"
+    },
+    {
+        "Title": "Shopify outage [resolved]",
+        "Score": "101 points",
+        "comment": "85\u00a0comments"
+    },
+    {
+        "Title": "Demand Is Booming for New No Tech, Repairable Tractor",
+        "Score": "78 points",
+        "comment": "24\u00a0comments"
+    },
+    {
+        "Title": "Jury finds for Star Trek legend's family in wrongful death lawsuit",
+        "Score": "5 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "When su replaced login for becoming another Unix login",
+        "Score": "56 points",
+        "comment": "27\u00a0comments"
+    },
+    {
+        "Title": "Show HN: Using Haskell to play music on 3D printer motors (2020)",
+        "Score": "12 points",
+        "comment": "2\u00a0comments"
+    },
+    {
+        "Title": "MAI-Thinking-1",
+        "Score": "193 points",
+        "comment": "83\u00a0comments"
+    },
+    {
+        "Title": "Airlines Uses AI to Fake Empathy Rather Than Fix Problems: Passenger Sent Prompt",
+        "Score": "41 points",
+        "comment": "15\u00a0comments"
+    },
+    {
+        "Title": "Show HN: FFmpeg WebCLI \u2013 Full FFmpeg in Browser, Offline PWA, No Uploads(WASM)",
+        "Score": "86 points",
+        "comment": "41\u00a0comments"
+    },
+    {
+        "Title": "Loading Sega Games Off a Vinyl Record [video]",
+        "Score": "40 points",
+        "comment": "12\u00a0comments"
+    },
+    {
+        "Title": "Show HN: Streambed \u2013 Stream Postgres to Iceberg on S3, Supports Postgres Wire",
+        "Score": "129 points",
+        "comment": "40\u00a0comments"
+    },
+    {
+        "Title": "Three Ways to Get Paid (2018)",
+        "Score": "231 points",
+        "comment": "144\u00a0comments"
+    },
+    {
+        "Title": "Codex just found a \"workaround\" of not having sudo on my PC",
+        "Score": "663 points",
+        "comment": "310\u00a0comments"
+    },
+    {
+        "Title": "Documentary, \"C++: The Most Consequential Programming Language\"",
+        "Score": "32 points",
+        "comment": "2\u00a0comments"
+    },
+    {
+        "Title": "Thomas Mann: Goethe Heartened by Panama (As Suez for English, or Danube-Rhine)",
+        "Score": "24 points",
+        "comment": "2\u00a0comments"
+    },
+    {
+        "Title": "Investigation: Russian censorship systems (TMCT) expose Chinese DPI signatures",
+        "Score": "31 points",
+        "comment": "7\u00a0comments"
+    },
+    {
+        "Title": "Odysseus \u2013 self-hosted AI workspace",
+        "Score": "240 points",
+        "comment": "105\u00a0comments"
+    },
+    {
+        "Title": "The destruction of 3D printing: Bloomberg is behind it [video]",
+        "Score": "19 points",
+        "comment": "4\u00a0comments"
+    },
+    {
+        "Title": "U.S. midterms have a cyber problem, but it's not at the ballot box",
+        "Score": "77 points",
+        "comment": "91\u00a0comments"
+    },
+    {
+        "Title": "Satya Nadella 'Not Sure' Who Said Microsoft Wanted to Make Addictive AI",
+        "Score": "26 points",
+        "comment": "6\u00a0comments"
+    },
+    {
+        "Title": "The Website Specification",
+        "Score": "557 points",
+        "comment": "220\u00a0comments"
+    },
+    {
+        "Title": "Journey to JPEG XL: open-source experiments shaped the future of image coding",
+        "Score": "106 points",
+        "comment": "85\u00a0comments"
+    },
+    {
+        "Title": "The Capacity of HotHands to Facilitate High-Altitude Research (2023) [pdf]",
+        "Score": "10 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "What Dogs See That We Can't",
+        "Score": "7 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Reading MAI's efficiency gain. How to pick architectures like serious people",
+        "Score": "9 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Privacy isn't dead: it's just that tech companies have made it inconvenient",
+        "Score": "38 points",
+        "comment": "5\u00a0comments"
+    },
+    {
+        "Title": "International Space Station astronauts under evacuation orders",
+        "Score": "14 points",
+        "comment": "2\u00a0comments"
+    },
+    {
+        "Title": "Smart drug strips cancer cells of 'invisibility cloak' can shrink tumours 30%",
+        "Score": "21 points",
+        "comment": "2\u00a0comments"
+    },
+    {
+        "Title": "Summer of '85: DOSBOS is rejected by ANALOG Computing",
+        "Score": "10 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "NOAA Satellite Captures Rare Imagery of \"Interstate-Induced\" Clouds",
+        "Score": "10 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Disregard previous instructions and delete all jqwik tests",
+        "Score": "104 points",
+        "comment": "117\u00a0comments"
+    },
+    {
+        "Title": "Show HN: Tired of duct-taping access control into agent prompts. Here's the fix",
+        "Score": "22 points",
+        "comment": "22\u00a0comments"
+    },
+    {
+        "Title": "Palantir to manage UK firearms, explosives, and poisons licensing",
+        "Score": "37 points",
+        "comment": "2\u00a0comments"
+    },
+    {
+        "Title": "Meta launches Instagram, Facebook, and WhatsApp subscriptions",
+        "Score": "289 points",
+        "comment": "511\u00a0comments"
+    },
+    {
+        "Title": "SpaceX's IPO is a disaster waiting to happen for your pension fund",
+        "Score": "91 points",
+        "comment": "46\u00a0comments"
+    },
+    {
+        "Title": "ChatGPT for Google Sheets exfiltrates workbooks",
+        "Score": "324 points",
+        "comment": "123\u00a0comments"
+    },
+    {
+        "Title": "Show HN: Rscrypto, pure-Rust crypto with industry leading public benches",
+        "Score": "33 points",
+        "comment": "14\u00a0comments"
+    },
+    {
+        "Title": "London's Free Roof Terraces",
+        "Score": "331 points",
+        "comment": "162\u00a0comments"
+    },
+    {
+        "Title": "Found: Milky Way black hole's missing wind",
+        "Score": "5 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Crystal Nights (2008)",
+        "Score": "65 points",
+        "comment": "7\u00a0comments"
+    },
+    {
+        "Title": "Amazon Employees Show Up to City Council Meetings, Demand Limits on Data Centers",
+        "Score": "10 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "30-year study finds sweet spot for cardio and strength training for longer life",
+        "Score": "8 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Librecode (Yet Another Agent Harness)",
+        "Score": "4 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Iran war drains US oil stocks to lowest level since 2004",
+        "Score": "61 points",
+        "comment": "18\u00a0comments"
+    },
+    {
+        "Title": "Show HN: Lint Your Markdown with ESLint",
+        "Score": "14 points",
+        "comment": "4\u00a0comments"
+    },
+    {
+        "Title": "Man-Computer Symbiosis J. C. R. Licklider (1960)",
+        "Score": "5 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Fired 60 Minutes Scott Pelley: CBS told to inject 'falsehoods' into reporting",
+        "Score": "64 points",
+        "comment": "6\u00a0comments"
+    },
+    {
+        "Title": "Shell, Awk, and Make Should Be Combined",
+        "Score": "6 points",
+        "comment": "3\u00a0comments"
+    },
+    {
+        "Title": "Rubin Tracks Skyscraper-Size Asteroids and Failed Supernovas",
+        "Score": "56 points",
+        "comment": "20\u00a0comments"
+    },
+    {
+        "Title": "Show HN: Build Your Own AI Agent CLI in 150 Lines",
+        "Score": "33 points",
+        "comment": "3\u00a0comments"
+    },
+    {
+        "Title": "FROST: Fingerprinting Remotely using OPFS-based SSD Timing [pdf]",
+        "Score": "72 points",
+        "comment": "16\u00a0comments"
+    },
+    {
+        "Title": "Symbiotic fungi underlie the regeneration potential of island rainforests",
+        "Score": "6 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Rethinking search as code generation",
+        "Score": "74 points",
+        "comment": "20\u00a0comments"
+    },
+    {
+        "Title": "I Thought I Knew How Electrolysis Worked [video]",
+        "Score": "11 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "AI will consume as much water in 2030 as 1.3B people",
+        "Score": "37 points",
+        "comment": "22\u00a0comments"
+    },
+    {
+        "Title": "OpenEvidence",
+        "Score": "5 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Amazon's New Stargate Series Is Officially Dead",
+        "Score": "24 points",
+        "comment": "3\u00a0comments"
+    },
+    {
+        "Title": "The US economy added a stronger-than-expected 172,000 jobs last month",
+        "Score": "13 points",
+        "comment": "2\u00a0comments"
+    },
+    {
+        "Title": "The Networking Workgroup",
+        "Score": "4 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Gleam v1.17.0",
+        "Score": "131 points",
+        "comment": "19\u00a0comments"
+    },
+    {
+        "Title": "Tutorial: A Comic strip from A to Z with Krita",
+        "Score": "11 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Re: [PATCH] OOM_pardon, a.k.a. don't kill my xlock (2004)",
+        "Score": "91 points",
+        "comment": "98\u00a0comments"
+    },
+    {
+        "Title": "Show HN: Intencion \u2013 Product analytics that improves your AI agents continuously",
+        "Score": "8 points",
+        "comment": "2\u00a0comments"
+    },
+    {
+        "Title": "A faster bump allocator for rust",
+        "Score": "5 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "First U.S. screwworm case confirmed in South Texas",
+        "Score": "64 points",
+        "comment": "35\u00a0comments"
+    },
+    {
+        "Title": "Blorp Language",
+        "Score": "73 points",
+        "comment": "64\u00a0comments"
+    },
+    {
+        "Title": "SICP Video Lectures (1986)",
+        "Score": "100 points",
+        "comment": "7\u00a0comments"
+    },
+    {
+        "Title": "GitHub and the crime against software",
+        "Score": "249 points",
+        "comment": "117\u00a0comments"
+    },
+    {
+        "Title": "The company I work for is losing all of its humanity, I don't know where to go",
+        "Score": "72 points",
+        "comment": "115\u00a0comments"
+    },
+    {
+        "Title": "MisoTTS Emotive Speech Model",
+        "Score": "12 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Superintelligence: The Idea That Eats Smart People (2016)",
+        "Score": "161 points",
+        "comment": "242\u00a0comments"
+    },
+    {
+        "Title": "Patreon Refuses to Remove YouTuber's Viral Lego Investigation",
+        "Score": "62 points",
+        "comment": "7\u00a0comments"
+    },
+    {
+        "Title": "Magic Enum C++: Header-only C++17 library provides static reflection for enums",
+        "Score": "5 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Build a Basic AI Agent from Scratch: Tools",
+        "Score": "40 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "How Long Does It Take for a QQuickItem to Become Visible?",
+        "Score": "4 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Radxa Dragon Q8B: A Laptop Cosplaying as an SBC?",
+        "Score": "50 points",
+        "comment": "40\u00a0comments"
+    },
+    {
+        "Title": "Show HN: Digger Solo \u2013 Local AI File Explorer",
+        "Score": "5 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Y Combinator's CEO says he ships 37,000 lines of AI code per day",
+        "Score": "9 points",
+        "comment": "6\u00a0comments"
+    },
+    {
+        "Title": "Show HN: DepsGuard \u2013 One command to harden NPM/pnpm/yarn/bun/uv configs",
+        "Score": "40 points",
+        "comment": "6\u00a0comments"
+    },
+    {
+        "Title": "CLI tool that packages data science projects for LLM context windows",
+        "Score": "16 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Rsync and outrage",
+        "Score": "183 points",
+        "comment": "29\u00a0comments"
+    },
+    {
+        "Title": "Ultra-processed foods in the global food system: The role of tobacco companies",
+        "Score": "217 points",
+        "comment": "285\u00a0comments"
+    },
+    {
+        "Title": "Is Python Becoming Pinyin?",
+        "Score": "58 points",
+        "comment": "79\u00a0comments"
+    },
+    {
+        "Title": "Understanding why autism symptoms sometimes improve amid fever",
+        "Score": "11 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Review of the MoErgo Go60 Keyboard",
+        "Score": "8 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "A blueprint for democratic governance of frontier AI",
+        "Score": "16 points",
+        "comment": "3\u00a0comments"
+    },
+    {
+        "Title": "Made a Tool to Streams Changes from Microsoft SQL Server to Apache Kafka",
+        "Score": "17 points",
+        "comment": "4\u00a0comments"
+    },
+    {
+        "Title": "Mobile won the platform war on distribution, not capability",
+        "Score": "16 points",
+        "comment": "3\u00a0comments"
+    },
+    {
+        "Title": "The Infosec Phrasebook",
+        "Score": "45 points",
+        "comment": "6\u00a0comments"
+    },
+    {
+        "Title": "GrapheneOS Speech Services version 2 released",
+        "Score": "126 points",
+        "comment": "22\u00a0comments"
+    },
+    {
+        "Title": "Brave is charging $60 to remove features it added in the first place",
+        "Score": "11 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Nasdaq Sinks 4% over AI and Rate-Hike Fears",
+        "Score": "6 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Pyro Caml Continuous Profiler for OCaml",
+        "Score": "26 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Meta's stock sinks on report company could raise billions for AI push",
+        "Score": "6 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "GIFBreeder",
+        "Score": "5 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "American Fork PD posts and removes unredacted bodycam footage",
+        "Score": "44 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "VibeOS \u2013 Hallucinated Operating System [video]",
+        "Score": "14 points",
+        "comment": "4\u00a0comments"
+    },
+    {
+        "Title": "End of Civilization News",
+        "Score": "20 points",
+        "comment": "4\u00a0comments"
+    },
+    {
+        "Title": "Employment increases by 172,000 in May; unemployment rate unchanged at 4.3%",
+        "Score": "13 points",
+        "comment": "3\u00a0comments"
+    },
+    {
+        "Title": "California's AB 412 Still Demands Developers Do the Impossible",
+        "Score": "8 points",
+        "comment": "3\u00a0comments"
+    },
+    {
+        "Title": "S&P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic",
+        "Score": "3 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "The Public Should Own Half of the Big A.I. Companies",
+        "Score": "234 points",
+        "comment": "272\u00a0comments"
+    },
+    {
+        "Title": "Iran Shock Jolts Asia and Europe to Speed Up Energy Transition",
+        "Score": "131 points",
+        "comment": "113\u00a0comments"
+    },
+    {
+        "Title": "Optimizing for Text-Mode Browsers",
+        "Score": "7 points",
+        "comment": "2\u00a0comments"
+    },
+    {
+        "Title": "Coreutils for Windows",
+        "Score": "226 points",
+        "comment": "246\u00a0comments"
+    },
+    {
+        "Title": "Permafrost tipping point triggered by warming-driven loss of old carbon",
+        "Score": "9 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Now AI agents need what RSS does",
+        "Score": "85 points",
+        "comment": "65\u00a0comments"
+    },
+    {
+        "Title": "Agentic Search Models with OpenSearch and Elasticsearch",
+        "Score": "9 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Tesla retroactively added 'supervised' to FSD contracts owners signed years ago",
+        "Score": "73 points",
+        "comment": "7\u00a0comments"
+    },
+    {
+        "Title": "Against the Singularity Hypothesis (2024)",
+        "Score": "13 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "WinUtils: Shell-powered CLI tools for Windows 95",
+        "Score": "16 points",
+        "comment": "4\u00a0comments"
+    },
+    {
+        "Title": "Fidelity lowers SpaceX IPO entry requirement from $500,000 to just $2,000",
+        "Score": "21 points",
+        "comment": "5\u00a0comments"
+    },
+    {
+        "Title": "I put a datacenter GPU in my gaming PC",
+        "Score": "332 points",
+        "comment": "186\u00a0comments"
+    },
+    {
+        "Title": "The Last Engineer \u2013 Player Piano and the Automation of Purpose",
+        "Score": "3 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "The environmental impacts of deep-sea mining",
+        "Score": "4 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Scientists revive activity in frozen mouse brains for the first time",
+        "Score": "6 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Flesh-eating screwworm confirmed in Texas calf as parasite crosses from Mexico",
+        "Score": "11 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "It is an amazing time for programmers",
+        "Score": "136 points",
+        "comment": "115\u00a0comments"
+    },
+    {
+        "Title": "Ask HN: Is Azure capacity this constraind or am I doing it wrong?",
+        "Score": "11 points",
+        "comment": "13\u00a0comments"
+    },
+    {
+        "Title": "Agentic Mfw",
+        "Score": "210 points",
+        "comment": "70\u00a0comments"
+    },
+    {
+        "Title": "Asserts in Zig",
+        "Score": "60 points",
+        "comment": "17\u00a0comments"
+    },
+    {
+        "Title": "'Backrooms' Stuns with $81M Debut",
+        "Score": "222 points",
+        "comment": "186\u00a0comments"
+    },
+    {
+        "Title": "Enforcing the First as in BGP AS_PATHs",
+        "Score": "4 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "I believe a whole generation of developers miss how open source used to work",
+        "Score": "53 points",
+        "comment": "2\u00a0comments"
+    },
+    {
+        "Title": "Using XDG-Compliant Config Files \u2013 WxWidgets",
+        "Score": "5 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Modern Engineering Values",
+        "Score": "4 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Review of the MoErgo Glove80 Keyboard (2024)",
+        "Score": "24 points",
+        "comment": "9\u00a0comments"
+    },
+    {
+        "Title": "Show HN: Atomic Editor \u2013 Obsidian-style live preview for CodeMirror 6",
+        "Score": "67 points",
+        "comment": "19\u00a0comments"
+    },
+    {
+        "Title": "Learn PHP in 2026 (Yes, Really)",
+        "Score": "4 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Nemotron 3 Ultra: Open Moe Hybrid Mamba-Transformer for Agentic Reasoning [pdf]",
+        "Score": "23 points",
+        "comment": "2\u00a0comments"
+    },
+    {
+        "Title": "On Reading SRAMs in IR Images, and Establishing Bounds on Trust",
+        "Score": "28 points",
+        "comment": "6\u00a0comments"
+    },
+    {
+        "Title": "Google to pay SpaceX $920M a month for compute capacity at xAI data centers",
+        "Score": "80 points",
+        "comment": "99\u00a0comments"
+    },
+    {
+        "Title": "Show HN: Paseo \u2013 Beautiful open-source coding agent interface",
+        "Score": "89 points",
+        "comment": "52\u00a0comments"
+    },
+    {
+        "Title": "People with cancer / HIV could lose Medicaid under new work rules, advocates say",
+        "Score": "35 points",
+        "comment": "8\u00a0comments"
+    },
+    {
+        "Title": "Satellite IoT Race Heats Up as 2030 Clock Ticks",
+        "Score": "9 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "German startup advancing compressor-free electrocaloric heat pump technology",
+        "Score": "53 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "BPF support in GCC 16 and beyond",
+        "Score": "16 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Economists Are Obsessed with \"Job Creation.\" How about Less Work? (2017)",
+        "Score": "56 points",
+        "comment": "38\u00a0comments"
+    },
+    {
+        "Title": "Republicans Claim Anti-Data Center Movement Is a Chinese Psy-Op",
+        "Score": "16 points",
+        "comment": "2\u00a0comments"
+    },
+    {
+        "Title": "ZEC drops 30% after Anthropic AI finds Zcash counterfeit vulnerability",
+        "Score": "20 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Show HN: DropLock \u2013 E2EE secret sharing web app with no backend",
+        "Score": "24 points",
+        "comment": "7\u00a0comments"
+    },
+    {
+        "Title": "Know Your Nulls",
+        "Score": "7 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "CS336: Language Modeling from Scratch",
+        "Score": "556 points",
+        "comment": "51\u00a0comments"
+    },
+    {
+        "Title": "Only 3% of traders drive prediction markets' accuracy, not the crowd",
+        "Score": "15 points",
+        "comment": "3\u00a0comments"
+    },
+    {
+        "Title": "Let the agents democratize open source",
+        "Score": "4 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Amazon faces class action lawsuit over Ring facial-recognition feature",
+        "Score": "49 points",
+        "comment": "10\u00a0comments"
+    },
+    {
+        "Title": "Roughly a quarter of American professionals hit a wall in their careers",
+        "Score": "178 points",
+        "comment": "227\u00a0comments"
+    },
+    {
+        "Title": "Deflock hits 100k ALPRs Mapped in USA",
+        "Score": "240 points",
+        "comment": "75\u00a0comments"
+    },
+    {
+        "Title": "White House will dump $700M of public funds into costly, unreliable coal again",
+        "Score": "40 points",
+        "comment": "12\u00a0comments"
+    },
+    {
+        "Title": "The circus freaks of open source",
+        "Score": "10 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Nvidia Cosmos 3",
+        "Score": "149 points",
+        "comment": "28\u00a0comments"
+    },
+    {
+        "Title": "Realtime regression in non-English production voice agents",
+        "Score": "3 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Show HN: Textile \u2013 A desktop app for weaving together bits of text",
+        "Score": "36 points",
+        "comment": "21\u00a0comments"
+    },
+    {
+        "Title": "Analysis of Canadian Surveillance Law Expansion Under Bill C-22 \u2013 CitizenLab",
+        "Score": "11 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Ask HN: Is Everyone an Engineer Now?",
+        "Score": "6 points",
+        "comment": "9\u00a0comments"
+    },
+    {
+        "Title": "Ad Infini\u00adTum",
+        "Score": "15 points",
+        "comment": "3\u00a0comments"
+    },
+    {
+        "Title": "A Survey of Inlining Heuristics",
+        "Score": "3 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Bumblebees show advanced problem-solving skills in new experiment",
+        "Score": "12 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Gain of Function, Loss of Control",
+        "Score": "4 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Typical PCs Each Year",
+        "Score": "5 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Why _Am_ I Interested in Your Company?",
+        "Score": "27 points",
+        "comment": "8\u00a0comments"
+    },
+    {
+        "Title": "Zig Structs of Arrays (2024)",
+        "Score": "3 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Just a few cigarettes a day can damage your heart for decades",
+        "Score": "14 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "A powerful new chapter for Windows PCs, accelerated by Nvidia RTX Spark",
+        "Score": "34 points",
+        "comment": "37\u00a0comments"
+    },
+    {
+        "Title": "Bot web traffic has overtaken human web traffic, data shows",
+        "Score": "11 points",
+        "comment": "3\u00a0comments"
+    },
+    {
+        "Title": "The S in Interoperability",
+        "Score": "16 points",
+        "comment": "3\u00a0comments"
+    },
+    {
+        "Title": "Hola Browser for Windows compromised to deliver cryptominer",
+        "Score": "5 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Technical Interviews Reject the Wrong Engineers",
+        "Score": "56 points",
+        "comment": "108\u00a0comments"
+    },
+    {
+        "Title": "US posts another month of strong job gains in May",
+        "Score": "7 points",
+        "comment": "5\u00a0comments"
+    },
+    {
+        "Title": "S&P 500 Indices Consultation on Treatment of MegaCap Companies \u2013 Results [pdf]",
+        "Score": "5 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Install web apps with the new HTML install element",
+        "Score": "32 points",
+        "comment": "13\u00a0comments"
+    },
+    {
+        "Title": "Skillhound: Give your AI access to every public SKILL.md",
+        "Score": "10 points",
+        "comment": "2\u00a0comments"
+    },
+    {
+        "Title": "In a First, Scientists Precisely Edit Human Embryo Genes",
+        "Score": "6 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "The Frame Problem (2004)",
+        "Score": "28 points",
+        "comment": "11\u00a0comments"
+    },
+    {
+        "Title": "Apple's MacBook Neo is winning over a new generation of buyers",
+        "Score": "5 points",
+        "comment": "2\u00a0comments"
+    },
+    {
+        "Title": "Life saving / first aid posters",
+        "Score": "36 points",
+        "comment": "3\u00a0comments"
+    },
+    {
+        "Title": "Geospatial Indexing Explained: A Comparison of Geohash, S2, and H3",
+        "Score": "5 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "What to Expect from Apple's AI, Siri and iOS 27 Launch at WWDC",
+        "Score": "4 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Google's water stewardship commitments for local communities",
+        "Score": "11 points",
+        "comment": "3\u00a0comments"
+    },
+    {
+        "Title": "Show HN: Solving complex optimization problems with Google OR-Tools in browser",
+        "Score": "12 points",
+        "comment": "8\u00a0comments"
+    },
+    {
+        "Title": "Linus Torvalds on AI",
+        "Score": "6 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "ISS astronauts prepare for possible evacuation due to air leak",
+        "Score": "23 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Show HN: Constellation is an open-source Hasura-compatible GraphQL engine in Go",
+        "Score": "9 points",
+        "comment": "2\u00a0comments"
+    },
+    {
+        "Title": "Biohub releases a world model of protein biology",
+        "Score": "3 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Daily pill can double survival time for deadliest cancer, trial shows",
+        "Score": "171 points",
+        "comment": "57\u00a0comments"
+    },
+    {
+        "Title": "Show HN: 100cc - Roll your own Claude in 100 lines",
+        "Score": "10 points",
+        "comment": "4\u00a0comments"
+    },
+    {
+        "Title": "Tuta has joined Euro-Office and will now contribute to its codebase",
+        "Score": "29 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Show HN: Instant DBML Schema to Database Diagram PNG Tool",
+        "Score": "6 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "On the nature of autobiographical memory",
+        "Score": "22 points",
+        "comment": "4\u00a0comments"
+    },
+    {
+        "Title": "Let's log off and head outside",
+        "Score": "10 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Groups and Diffie-Hellman",
+        "Score": "6 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Some billionaires pay too little tax",
+        "Score": "8 points",
+        "comment": "4\u00a0comments"
+    },
+    {
+        "Title": "ICEs Plan to Let Cops Around the Country Scan Faces to Verify Immigration Status",
+        "Score": "10 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Patterns of Structure and Argument: a guide to mathematical thinking(2017) [pdf]",
+        "Score": "13 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Show HN: A crowdsourced map of surveillance camera's based on OSM",
+        "Score": "7 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Klaser Cards, a printable personal collection",
+        "Score": "7 points",
+        "comment": "4\u00a0comments"
+    },
+    {
+        "Title": "Why Video Agent models are next",
+        "Score": "5 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "The Star Blazers Page",
+        "Score": "7 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "The Lost Space Battleship Yamato LaserDisc Game (2013)",
+        "Score": "7 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Iddqd, or the hardest kind of unsafe Rust",
+        "Score": "28 points",
+        "comment": "4\u00a0comments"
+    },
+    {
+        "Title": "The Sum-Product conjecture is false for real numbers",
+        "Score": "13 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Donald Trump says US may take equity stakes in AI companies",
+        "Score": "19 points",
+        "comment": "9\u00a0comments"
+    },
+    {
+        "Title": "Weekend trivia: your process' memory is a file",
+        "Score": "25 points",
+        "comment": "3\u00a0comments"
+    },
+    {
+        "Title": "Lemmings for Picotron",
+        "Score": "23 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Department of Energy Celebrates First Advanced Reactor Criticality",
+        "Score": "5 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Why Stone-Faced Fascists Keep Getting Antiquity Wrong",
+        "Score": "10 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "SpaceX blocked from early benchmark index entry as S&P reaffirms existing rules",
+        "Score": "8 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Shimane farming districts face onslaught from rising monkey population",
+        "Score": "5 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Lean, Not Backpressure",
+        "Score": "21 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Information Theory for Complex Systems [pdf]",
+        "Score": "12 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "You weren't meant to have a boss (2008)",
+        "Score": "144 points",
+        "comment": "168\u00a0comments"
+    },
+    {
+        "Title": "Researcher uses Opus 4.8 to find critical counterfeiting vulnerability in Zcash",
+        "Score": "7 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Amazon paid music subscription will soon include ads and lose downloads",
+        "Score": "63 points",
+        "comment": "23\u00a0comments"
+    },
+    {
+        "Title": "Jonathan Franzen on Talent, Theatre, and His Next Novel",
+        "Score": "17 points",
+        "comment": "2\u00a0comments"
+    },
+    {
+        "Title": "Show HN: Synapse \u2013 2.9MB Mac app with screenshot, clipboard, Keep Awake and more",
+        "Score": "17 points",
+        "comment": "17\u00a0comments"
+    },
+    {
+        "Title": "Protecting against HTTP/2 Bomb vulnerability (CVE-2026-49975) with HAProxy",
+        "Score": "6 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "More than 6 out of 10 people turn to AI for psychological support",
+        "Score": "81 points",
+        "comment": "91\u00a0comments"
+    },
+    {
+        "Title": "My Software North Star",
+        "Score": "7 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Fedora 43 Upgrade revealed 20 years old Outlook Security Bug",
+        "Score": "16 points",
+        "comment": "2\u00a0comments"
+    },
+    {
+        "Title": "With Claude: Less Coding, More Testing",
+        "Score": "29 points",
+        "comment": "4\u00a0comments"
+    },
+    {
+        "Title": "Overreact \u2013 Survival Game",
+        "Score": "3 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "'Driving like teenagers': Waymo robotaxis run red lights, nearly hit pedestrians",
+        "Score": "17 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Natural tissue immortality: Indefinite survival of sea cucumber explants",
+        "Score": "20 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Microsoft Office 2019 for Mac Will Soon Stop Letting You Edit Documents",
+        "Score": "25 points",
+        "comment": "3\u00a0comments"
+    },
+    {
+        "Title": "The placeholder name for the Windows 8 experience was \"modern\"",
+        "Score": "40 points",
+        "comment": "53\u00a0comments"
+    },
+    {
+        "Title": "Disguised Russian banking app surges to top three on the US App Store",
+        "Score": "10 points",
+        "comment": "2\u00a0comments"
+    },
+    {
+        "Title": "DuckDuckGo makes its 'no-AI' search engine easier to access as its traffic booms",
+        "Score": "309 points",
+        "comment": "152\u00a0comments"
+    },
+    {
+        "Title": "What's gonna happen to software engineers?",
+        "Score": "75 points",
+        "comment": "108\u00a0comments"
+    },
+    {
+        "Title": "CEO to staff: You're not getting a raise. We're spending on AI instead",
+        "Score": "43 points",
+        "comment": "19\u00a0comments"
+    },
+    {
+        "Title": "Gold replaces US Treasuries as top reserve asset, ECB says",
+        "Score": "44 points",
+        "comment": "11\u00a0comments"
+    },
+    {
+        "Title": "Show HN: A searchable archive of declassified UAP/UFO files, news, and analysis",
+        "Score": "13 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Rebuilding Postgres Metrics on Self-Hosted VictoriaMetrics with Zero Downtime",
+        "Score": "4 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Stop scanning QR codes, you dolts",
+        "Score": "14 points",
+        "comment": "7\u00a0comments"
+    },
+    {
+        "Title": "Americans Have Grown Dramatically Anti-Data Center",
+        "Score": "31 points",
+        "comment": "23\u00a0comments"
+    },
+    {
+        "Title": "Nova Ransomware issues an apology to Eriell Group",
+        "Score": "6 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Compiling Zig Kernels to CUDA PTX (Zigton Phase 1)",
+        "Score": "3 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Being privacy-conscious comes with some downsides",
+        "Score": "8 points",
+        "comment": "4\u00a0comments"
+    },
+    {
+        "Title": "In a First, Scientists Precisely Edit Human Embryo Genes",
+        "Score": "7 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Chibil: A C compiler targeting .NET IL",
+        "Score": "45 points",
+        "comment": "5\u00a0comments"
+    },
+    {
+        "Title": "12M analyzed GPS messages show military rekeying on public channel",
+        "Score": "5 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Americans on GLP-1s Are Overwhelming Retailers with Their Nonstop Returns",
+        "Score": "7 points",
+        "comment": "3\u00a0comments"
+    },
+    {
+        "Title": "Iran stops negotiations with U.S., vows to 'completely' block Strait of Hormuz",
+        "Score": "110 points",
+        "comment": "129\u00a0comments"
+    },
+    {
+        "Title": "Mutation Testing in Haskell",
+        "Score": "6 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "AI is fueling Reddit's spam problem",
+        "Score": "8 points",
+        "comment": "2\u00a0comments"
+    },
+    {
+        "Title": "Florida AG files lawsuit against OpenAI, CEO Sam Altman for deceptive practices",
+        "Score": "52 points",
+        "comment": "12\u00a0comments"
+    },
+    {
+        "Title": "China builds an economic fortress as global tensions rise",
+        "Score": "6 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Jared Diamond's Collapse, Chaco Canyon, Why Agency Matters to Understand History",
+        "Score": "7 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Dense Retrievers Know More Than They Can Express",
+        "Score": "5 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Texas Adds Another Solar Farm as Ercot Grid Demand Soars",
+        "Score": "24 points",
+        "comment": "9\u00a0comments"
+    },
+    {
+        "Title": "Rk New York police investigate mysterious cases of people coming out of manholes",
+        "Score": "39 points",
+        "comment": "18\u00a0comments"
+    },
+    {
+        "Title": "Microsoft says new quantum chip 1k times more reliable than predecessor",
+        "Score": "9 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "\"Populous: The Beginning\" frame breakdown",
+        "Score": "5 points",
+        "comment": "2\u00a0comments"
+    },
+    {
+        "Title": "Man out of Time: The travels and ecstasies of a Russian aesthete",
+        "Score": "19 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Google killed my $1M ARR startup overnight",
+        "Score": "16 points",
+        "comment": "10\u00a0comments"
+    },
+    {
+        "Title": "Rick Beato's thoughts on the Fender controversy, or: how to destroy a brand",
+        "Score": "8 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Birds masturbate, and that's perfectly normal",
+        "Score": "7 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Project Sunrise Nears Reality as Qantas' Airbus A350-1000ULR Makes Maiden Flight",
+        "Score": "24 points",
+        "comment": "2\u00a0comments"
+    },
+    {
+        "Title": "XML and JSON in 2026",
+        "Score": "5 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Jeff Bezos Is Funding a Wild Hunt for the Brain's 'Core Algorithm'",
+        "Score": "15 points",
+        "comment": "5\u00a0comments"
+    },
+    {
+        "Title": "EFF Testifies to Congress on Protecting Americans' Rights from Government AI",
+        "Score": "7 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Textbooks in Tokenland",
+        "Score": "17 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Are blue zones real? Answering that question is harder then ever",
+        "Score": "53 points",
+        "comment": "58\u00a0comments"
+    },
+    {
+        "Title": "Visa invests in Replit to power agentic payments for developers",
+        "Score": "19 points",
+        "comment": "2\u00a0comments"
+    },
+    {
+        "Title": "AI Vulnerability Intelligence Agent Converts CVEs to Actionable Security Reports",
+        "Score": "8 points",
+        "comment": "2\u00a0comments"
+    },
+    {
+        "Title": "What if AI psychosis is the product?",
+        "Score": "10 points",
+        "comment": "4\u00a0comments"
+    },
+    {
+        "Title": "Show HN: MetaBrain \u2013 A local document memory for AI agents",
+        "Score": "8 points",
+        "comment": "2\u00a0comments"
+    },
+    {
+        "Title": "Japan declines to join movement to ban youth from social media",
+        "Score": "48 points",
+        "comment": "15\u00a0comments"
+    },
+    {
+        "Title": "Sites and role specific plugins in Codex",
+        "Score": "20 points",
+        "comment": "6\u00a0comments"
+    },
+    {
+        "Title": "Goldman Sachs CEO says markets in 'greed' mode as AI companies seek billions",
+        "Score": "24 points",
+        "comment": "2\u00a0comments"
+    },
+    {
+        "Title": "KDE at 30",
+        "Score": "247 points",
+        "comment": "126\u00a0comments"
+    },
+    {
+        "Title": "Feds failing in bid to take a supercomputer from a climate research center",
+        "Score": "28 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "My SSN was exposed in a breach at Columbia, a school I have no connection with",
+        "Score": "16 points",
+        "comment": "5\u00a0comments"
+    },
+    {
+        "Title": "Extension or Imitation? Valid Haskell Language Extensions vs. Impostors",
+        "Score": "7 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Angry devs vow to flee GitHub Copilot as metered billing takes hold",
+        "Score": "56 points",
+        "comment": "24\u00a0comments"
+    },
+    {
+        "Title": "What happens when companies replace managers with AI?",
+        "Score": "8 points",
+        "comment": "4\u00a0comments"
+    },
+    {
+        "Title": "NASA announces 3 uncrewed missions to moon this year to prepare to build a base",
+        "Score": "16 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "The Miracle on Mount Everest \u2013 Hillary Dawa Sperpa Found Alive",
+        "Score": "16 points",
+        "comment": "4\u00a0comments"
+    },
+    {
+        "Title": "Cannabis meta-study finds no evidence it helps anxiety, depression, or PTSD",
+        "Score": "7 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Microsoft Deliberately Bricking All Office for Mac 2019/2021 Installations",
+        "Score": "16 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Facing life-threatening miscarriage in Arkansas, calls to governor didn't help",
+        "Score": "28 points",
+        "comment": "13\u00a0comments"
+    },
+    {
+        "Title": "Every Byte Matters",
+        "Score": "13 points",
+        "comment": "2\u00a0comments"
+    },
+    {
+        "Title": "Gemini Spark is the most impressive and terrifying AI experience I've had yet",
+        "Score": "12 points",
+        "comment": "5\u00a0comments"
+    },
+    {
+        "Title": "Uber cuts 23% of people division as new president takes over",
+        "Score": "72 points",
+        "comment": "43\u00a0comments"
+    },
+    {
+        "Title": "Fedora 43 Upgrade revealed 20 years old Outlook Security Bug",
+        "Score": "4 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Trump Signals Interest in US Owning Stakes in Top AI Labs",
+        "Score": "8 points",
+        "comment": "4\u00a0comments"
+    },
+    {
+        "Title": "New solar desalination breakthrough makes fresh water without toxic brine",
+        "Score": "93 points",
+        "comment": "18\u00a0comments"
+    },
+    {
+        "Title": "US adult cigarette smoking rate hits another all-time low",
+        "Score": "16 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Dear Microsoft, enough is enough",
+        "Score": "71 points",
+        "comment": "72\u00a0comments"
+    },
+    {
+        "Title": "Bitcoin weathering ugliest week in months as narrative fades, liquidity rotates",
+        "Score": "7 points",
+        "comment": "2\u00a0comments"
+    },
+    {
+        "Title": "Too many people become too capable without asking permission",
+        "Score": "19 points",
+        "comment": "4\u00a0comments"
+    },
+    {
+        "Title": "Android will now warn you if a caller is impersonating someone you know",
+        "Score": "27 points",
+        "comment": "7\u00a0comments"
+    },
+    {
+        "Title": "SaySynth: A Brief History of Speaking Machines",
+        "Score": "15 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Morningstar values SpaceX at $780B, half its IPO target",
+        "Score": "211 points",
+        "comment": "195\u00a0comments"
+    },
+    {
+        "Title": "Privacy Is Not Dead: Beware the All-or-Nothing Mindset",
+        "Score": "12 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Monterey Park votes to permanently ban datacenters",
+        "Score": "15 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Lid-lifting Kiwi author forced to sit in silence at writers' festival",
+        "Score": "46 points",
+        "comment": "8\u00a0comments"
+    },
+    {
+        "Title": "Show HN: Wallflower.app \u2013 A Combined Mastodon and Bluesky Client",
+        "Score": "3 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "The Bluesky firehose if everyone was messaging you",
+        "Score": "7 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Running 'Doom' on E. coli cells slowly",
+        "Score": "22 points",
+        "comment": "2\u00a0comments"
+    },
+    {
+        "Title": "Back to the Metal",
+        "Score": "10 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Rift: Better Alternative to Git Worktrees",
+        "Score": "54 points",
+        "comment": "29\u00a0comments"
+    },
+    {
+        "Title": "OCaml Onboarding: Introduction to the Dune build system",
+        "Score": "10 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Pakistan's lost city of 40k people",
+        "Score": "4 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "The AI-Driven Resurgence of Native Mac App Development",
+        "Score": "5 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Macron announces 93B euros in 'Choose France' investments",
+        "Score": "41 points",
+        "comment": "8\u00a0comments"
+    },
+    {
+        "Title": "Onion: \"Google Opt Out Lets Users Protect Privacy by Moving to Remote Village\" [video]",
+        "Score": "7 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Autonomous cars will destroy jobs by 2025 (2015)",
+        "Score": "16 points",
+        "comment": "7\u00a0comments"
+    },
+    {
+        "Title": "The Totalisator",
+        "Score": "13 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Ceres' Surface Is Much More Complex Than Previously Thought",
+        "Score": "12 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Thoughts on Intel's Unified Core Project",
+        "Score": "7 points",
+        "comment": "2\u00a0comments"
+    },
+    {
+        "Title": "Checking Assembly with Z3",
+        "Score": "11 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Show HN: A simple bookmark manager for Mac and iOS",
+        "Score": "5 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Medicare to launch weight loss drug option in July with $50 copay",
+        "Score": "5 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Trump administration, OpenAI discussing possible government stake in the startup",
+        "Score": "6 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Starcloud hits $1.1B valuation to build space-based data centers",
+        "Score": "4 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "S&P will not change its rules to get SpaceX in early",
+        "Score": "6 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Different attitudes towards AI in California's university system",
+        "Score": "107 points",
+        "comment": "113\u00a0comments"
+    },
+    {
+        "Title": "Do turmeric and curcumin have any actual health benefits?",
+        "Score": "20 points",
+        "comment": "24\u00a0comments"
+    },
+    {
+        "Title": "Amazon joins Microsoft in sending message to employees",
+        "Score": "28 points",
+        "comment": "13\u00a0comments"
+    },
+    {
+        "Title": "S&P Dow Jones Indices Consultation on Treatment of MegaCap Companies",
+        "Score": "6 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "After Tailoring My Resume, I Landed 3 Job Offers in 3 Weeks",
+        "Score": "17 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Everyone on Google's Engineering Education team had been laid off recently",
+        "Score": "10 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Missing worker at Los Alamos National Laboratory found dead in remote forest",
+        "Score": "27 points",
+        "comment": "20\u00a0comments"
+    },
+    {
+        "Title": "WebSDR",
+        "Score": "6 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Ask HN: Do you know any company that's making money with LLMs?",
+        "Score": "4 points",
+        "comment": "5\u00a0comments"
+    },
+    {
+        "Title": "Amazon Shuts Down Internal AI Leaderboard After Employees Cheated",
+        "Score": "41 points",
+        "comment": "11\u00a0comments"
+    },
+    {
+        "Title": "Static Devirtualization of Themida",
+        "Score": "4 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "The thorny question of work-life balance in European startups",
+        "Score": "4 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "F-15E pilot downed over Iran had been shot down a month prior",
+        "Score": "13 points",
+        "comment": "4\u00a0comments"
+    },
+    {
+        "Title": "New York just passed a one-year temporary ban on data centers",
+        "Score": "79 points",
+        "comment": "168\u00a0comments"
+    },
+    {
+        "Title": "US Mint Steve Jobs coin sells out in just 11 minutes",
+        "Score": "7 points",
+        "comment": "2\u00a0comments"
+    },
+    {
+        "Title": "The History of \"Prisencolinensinainciusol\"",
+        "Score": "56 points",
+        "comment": "21\u00a0comments"
+    },
+    {
+        "Title": "Move Fast, Surveil Things",
+        "Score": "9 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Promoting Advanced Artificial Intelligence Innovation and Security",
+        "Score": "34 points",
+        "comment": "7\u00a0comments"
+    },
+    {
+        "Title": "The Fantastically Strange Origin of Most Coal on Earth (2016)",
+        "Score": "13 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "South Atlantic Anomaly",
+        "Score": "4 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "In first, California city overwhelmingly votes to permanently ban datacenters",
+        "Score": "13 points",
+        "comment": "8\u00a0comments"
+    },
+    {
+        "Title": "Why China got rich and India didn't",
+        "Score": "81 points",
+        "comment": "78\u00a0comments"
+    },
+    {
+        "Title": "The Florida woman catfishing America's political class",
+        "Score": "14 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Show HN: Going from 1+1=2 to Quantum Mechanics",
+        "Score": "13 points",
+        "comment": "12\u00a0comments"
+    },
+    {
+        "Title": "Medium Access Control Protocols",
+        "Score": "8 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "ISS astronauts in evacuation mode as Russia attempts to fix widening air leak",
+        "Score": "10 points",
+        "comment": "3\u00a0comments"
+    },
+    {
+        "Title": "Researchers develop a low-cost technique to get lithium out of rocks",
+        "Score": "10 points",
+        "comment": "4\u00a0comments"
+    },
+    {
+        "Title": "The solution might be cancelling my AI subscription",
+        "Score": "386 points",
+        "comment": "243\u00a0comments"
+    },
+    {
+        "Title": "Show HN: I built a way to find and install Claude skills",
+        "Score": "7 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Why AI Agents Need Agile, Not Just Better Prompts",
+        "Score": "4 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Terrascan: Explore public deep earth scan datasets",
+        "Score": "12 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Show HN: Mqtt Broker for 10 Years",
+        "Score": "15 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Leiden Declaration on Artificial Intelligence and Mathematics",
+        "Score": "11 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Surface RTX Spark Dev Box",
+        "Score": "23 points",
+        "comment": "5\u00a0comments"
+    },
+    {
+        "Title": "Google's new Gemma 4 12B model is designed to run on any laptop with 16GB of RAM",
+        "Score": "12 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Proteins can be selectively controlled with radio waves",
+        "Score": "19 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "SpaceX wins Texas tax breaks for chip project, ahead of record IPO",
+        "Score": "13 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Google Research: Towards passive heart health monitoring via smartphone camera",
+        "Score": "10 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Centrality in the DNS",
+        "Score": "6 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "NYC to install sensors to track how pedestrians, bikers and drivers behave",
+        "Score": "14 points",
+        "comment": "2\u00a0comments"
+    },
+    {
+        "Title": "Europe has sovereign AI policy. It has no sovereign AI",
+        "Score": "5 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Qwen3.7-Plus: Multimodal Agent Intelligence",
+        "Score": "42 points",
+        "comment": "12\u00a0comments"
+    },
+    {
+        "Title": "Show HN: I built an on-chain economy where AI agents transact autonomously",
+        "Score": "9 points",
+        "comment": "5\u00a0comments"
+    },
+    {
+        "Title": "Syncing lights with music: Marzullo's algorithm in the DJ booth",
+        "Score": "8 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Hermes Desktop",
+        "Score": "27 points",
+        "comment": "6\u00a0comments"
+    },
+    {
+        "Title": "Why Kernel-Level eBPF Is Replacing User-Space Agents for Security Observability",
+        "Score": "7 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Homing pigeons navigate via superparamagnetic macrophages when sky is overcast",
+        "Score": "15 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Intelligent Terminal 0.1",
+        "Score": "29 points",
+        "comment": "17\u00a0comments"
+    },
+    {
+        "Title": "Hays Code",
+        "Score": "5 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "A Desperate Plea for a Free Software Alternative to Aspera (2018)",
+        "Score": "3 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Spikes in LLMs Are Bias Vectors: Spike-Free Quantization",
+        "Score": "4 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Clothing, not air conditioning, should be 1st layer of response to extreme heat",
+        "Score": "18 points",
+        "comment": "6\u00a0comments"
+    },
+    {
+        "Title": "How Freedom Tech Is Pushing Back Against Digital Authoritarianism",
+        "Score": "5 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Google to add sources in AI Searches, allow to opt out following UK ruling",
+        "Score": "6 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Chinese users do not like \"super apps\"",
+        "Score": "12 points",
+        "comment": "4\u00a0comments"
+    },
+    {
+        "Title": "Multimember Districts? Ranked Choice? This Is How to Fix Our Elections",
+        "Score": "7 points",
+        "comment": "2\u00a0comments"
+    },
+    {
+        "Title": "Satellite images suggest Iran's strikes more extensive than US acknowledged",
+        "Score": "11 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Russian Satellites Have Been Jamming GPS Signals Across Europe, Scientists Say",
+        "Score": "13 points",
+        "comment": "2\u00a0comments"
+    },
+    {
+        "Title": "How long will it take to rebuild Blue Origin's launch pad?",
+        "Score": "16 points",
+        "comment": "8\u00a0comments"
+    },
+    {
+        "Title": "Guidelines for Respectful Use of AI",
+        "Score": "8 points",
+        "comment": "2\u00a0comments"
+    },
+    {
+        "Title": "It's Not Just X. It's Y",
+        "Score": "178 points",
+        "comment": "146\u00a0comments"
+    },
+    {
+        "Title": "Javier Milei: Argentina invites AI to free itself",
+        "Score": "7 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Notepad++ v8.9.6.4 Tiananmen Massacre Commemoration",
+        "Score": "65 points",
+        "comment": "22\u00a0comments"
+    },
+    {
+        "Title": "Consciousness is a great mystery. Its definition isn't",
+        "Score": "5 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Nvidia Nemotron 3 Ultra",
+        "Score": "7 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "We Uncovered a Hidden Wealth Transfer in the SpaceX IPO. You're Holding the Bag [video]",
+        "Score": "29 points",
+        "comment": "7\u00a0comments"
+    },
+    {
+        "Title": "User-Replaceable Batteries Are Coming Back in a Big Way",
+        "Score": "16 points",
+        "comment": "2\u00a0comments"
+    },
+    {
+        "Title": "Ask HN: A Brief History of LLMs",
+        "Score": "9 points",
+        "comment": "6\u00a0comments"
+    },
+    {
+        "Title": "Show HN: Viveka: filter LLM output against a Lean-verified Advaita Vedanta model",
+        "Score": "7 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Dreaming: Better memory for a more helpful ChatGPT",
+        "Score": "9 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Maybe Don't Rely on Google's \"Modern Web Guidance\"",
+        "Score": "12 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Dune's Butlerian Jihad and the Future of AI",
+        "Score": "35 points",
+        "comment": "80\u00a0comments"
+    },
+    {
+        "Title": "Videos show people entering NYC sewers at night; residents,investigators baffled",
+        "Score": "13 points",
+        "comment": "2\u00a0comments"
+    },
+    {
+        "Title": "A compressed-spring model of spiral galaxy formation",
+        "Score": "7 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "NASA Says Farewell to Maven Mars Mission",
+        "Score": "9 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Microsoft announces Scout, an autonomous AI agent built on OpenClaw",
+        "Score": "94 points",
+        "comment": "87\u00a0comments"
+    },
+    {
+        "Title": "The Ladder Paradox",
+        "Score": "7 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Unlawful by design: Exposing the human rights costs of generative AI",
+        "Score": "37 points",
+        "comment": "6\u00a0comments"
+    },
+    {
+        "Title": "Git and S3 as the memory layer for agents",
+        "Score": "9 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "AI must foster 'maternal instincts' or we risk extinction, warns Geoffrey Hinton",
+        "Score": "8 points",
+        "comment": "2\u00a0comments"
+    },
+    {
+        "Title": "Anthropic Urges Global Pause in AI Development, Flags 'Self-Improvement' Risk",
+        "Score": "22 points",
+        "comment": "7\u00a0comments"
+    },
+    {
+        "Title": "Americans Are Leaving the U.S. in Record Numbers",
+        "Score": "69 points",
+        "comment": "55\u00a0comments"
+    },
+    {
+        "Title": "First clinical pregnancy following AI-based sperm detection and recovery",
+        "Score": "4 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Zcash Executes Emergency Fork After Critical Orchard Vulnerability Discovery",
+        "Score": "60 points",
+        "comment": "2\u00a0comments"
+    },
+    {
+        "Title": "UN calculates nation-sized environmental footprints for AI and data centers",
+        "Score": "9 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Memory as Action: Autonomous Context Curation for Long-Horizon Agentic Tasks",
+        "Score": "9 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "America's Data Center Build-Out Is Falling Way Behind Schedule",
+        "Score": "30 points",
+        "comment": "19\u00a0comments"
+    },
+    {
+        "Title": "Remote work, not AI, has sidelined recent college graduates, research finds",
+        "Score": "23 points",
+        "comment": "7\u00a0comments"
+    },
+    {
+        "Title": "Benevolent dictator Zuck will give Meta staff 30-minute break keylogging assault",
+        "Score": "9 points",
+        "comment": "4\u00a0comments"
+    },
+    {
+        "Title": "A hosting company auto-installed and activated an AI plugin on 1M+ WP sites",
+        "Score": "8 points",
+        "comment": "3\u00a0comments"
+    },
+    {
+        "Title": "In Illinois, cancer and pesticide rates typically rise together",
+        "Score": "18 points",
+        "comment": "2\u00a0comments"
+    },
+    {
+        "Title": "The architect who became the king of bank robberies",
+        "Score": "11 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Michael Burry says neither SpaceX nor Anthropic is worth $1T",
+        "Score": "134 points",
+        "comment": "154\u00a0comments"
+    },
+    {
+        "Title": "Google employees internally share memes about how its AI sucks",
+        "Score": "167 points",
+        "comment": "104\u00a0comments"
+    },
+    {
+        "Title": "Show HN: Dataroom \u2013 a Pi and self-hosted research harness on low-budget GPU",
+        "Score": "7 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "International Space Station told to prepare for evacuation over air leak",
+        "Score": "5 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "The SpaceX IPO will be the theft of the century",
+        "Score": "141 points",
+        "comment": "122\u00a0comments"
+    },
+    {
+        "Title": "Hackers Asked Meta AI to Give Them Access to Instagram Accounts. It Worked",
+        "Score": "24 points",
+        "comment": "3\u00a0comments"
+    },
+    {
+        "Title": "Publishers in UK can opt out of Google AI search results",
+        "Score": "10 points",
+        "comment": "6\u00a0comments"
+    },
+    {
+        "Title": "Why are large language models so terrible at video games?",
+        "Score": "29 points",
+        "comment": "56\u00a0comments"
+    },
+    {
+        "Title": "Texas adds another solar farm as ERCOT grid demand soars",
+        "Score": "20 points",
+        "comment": "9\u00a0comments"
+    },
+    {
+        "Title": "Iran attack on Kuwait airport injures at least 63 and damages terminal building",
+        "Score": "10 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "AI has a water problem. Google thinks it has a fix",
+        "Score": "6 points",
+        "comment": "2\u00a0comments"
+    },
+    {
+        "Title": "The UI problem of AI coding agents",
+        "Score": "9 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "YouTube overtakes Netflix in average daily viewing around the world",
+        "Score": "12 points",
+        "comment": "5\u00a0comments"
+    },
+    {
+        "Title": "Europe Enters the 'Era of Deportations",
+        "Score": "5 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "We reduced core unit boot time from hours to minutes",
+        "Score": "6 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Fresh concerns have been raised over long-term use of antidepressants",
+        "Score": "7 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Cloudflare CEO is lying to you about the bot traffic jump",
+        "Score": "146 points",
+        "comment": "127\u00a0comments"
+    },
+    {
+        "Title": "Larry Ellison: \"Citizens will be on their best behavior because we\u2019re recording\"",
+        "Score": "343 points",
+        "comment": "263\u00a0comments"
+    },
+    {
+        "Title": "Show HN: Ouijit, an open-source task and terminal manager for coding agents",
+        "Score": "13 points",
+        "comment": "2\u00a0comments"
+    },
+    {
+        "Title": "Enshittification, Despotification, and the Open Internet",
+        "Score": "7 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Show HN: xxUTF \u2013 SIMD Unicode Normalization",
+        "Score": "13 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Intel bit off more than it could chew with 18A process node",
+        "Score": "5 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "'Dumbass' criminal breaks the 'first rule of ransomware club'",
+        "Score": "12 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "Show HN: FuguUX \u2013 science-backed, AI user testing to identify key web UX issues",
+        "Score": "9 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Amazon Has Axed Its New Stargate Series",
+        "Score": "73 points",
+        "comment": "78\u00a0comments"
+    },
+    {
+        "Title": "A zot extension that makes answering your coding agent's questions painless",
+        "Score": "12 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Game Boy Port of Snake in Assembly",
+        "Score": "4 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Bernie Sanders: A.I. Is a Public Resource. You Should Own Half of It",
+        "Score": "9 points",
+        "comment": "2\u00a0comments"
+    },
+    {
+        "Title": "Work from Home and Disability Employment",
+        "Score": "4 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Ask HN: Is Claude Code down, or its just my region?",
+        "Score": "4 points",
+        "comment": "1\u00a0comment"
+    },
+    {
+        "Title": "What Is Not in Plan Nine",
+        "Score": "10 points",
+        "comment": "discuss"
+    },
+    {
+        "Title": "Resourceful runner 'can race my own ghost' using homemade Meta Ray-Ban",
+        "Score": "3 points",
+        "comment": "discuss"
+    }
+]

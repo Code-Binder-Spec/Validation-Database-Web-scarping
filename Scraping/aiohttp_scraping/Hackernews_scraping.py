@@ -4,7 +4,7 @@ import aiohttp
 import json
 import logging
 
-logging.basicConfig(filename="Hackernews.log",level=logging.DEBUG)
+logging.basicConfig(filename="Hackernews.log",level=logging.INFO)
 
 sem = asyncio.Semaphore(3)
 
