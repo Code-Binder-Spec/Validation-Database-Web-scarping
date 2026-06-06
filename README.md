@@ -281,6 +281,54 @@ Async context manager for database connections
 Dynamic query construction with safety constraints
 Modular async function architecture
 
+Readme · TXT
+==================================================
+📂 FOLDER: Combined
+📦 PROJECT — github_scraping.py
+==================================================
+TYPE:
+Async GitHub Trending Scraper with Pydantic Validation and SQLite Storage
+ 
+DESCRIPTION:
+A Python-based asynchronous web scraper that collects trending repository data
+from GitHub across daily, weekly, and monthly time periods using aiohttp and
+BeautifulSoup. Scraped data is validated and type-coerced through a Pydantic
+model before being persisted to a SQLite database via aiosqlite. All three
+time period pages are fetched concurrently using asyncio.gather with a semaphore
+to control request rate. The pipeline includes per-repo error handling, structured
+logging to a log file, and deduplication via a UNIQUE constraint to ensure safe
+repeated runs without duplicate rows.
+ 
+MAIN FEATURES:
+✔ Asynchronous HTTP fetching using aiohttp
+✔ Concurrent scraping of daily, weekly, and monthly trending pages via asyncio.gather
+✔ Rate-limiting with asyncio.Semaphore to avoid overwhelming GitHub
+✔ HTML parsing with BeautifulSoup across modular scraper functions
+✔ Pydantic model with field validators for type coercion and cleaning
+✔ Handles optional fields (language, description) with None fallback
+✔ Cleans star/fork counts from formatted strings to integers
+✔ Async SQLite storage using aiosqlite
+✔ Deduplication via UNIQUE(username, reponame, time_period) constraint
+✔ INSERT OR IGNORE to safely skip duplicate rows on repeated runs
+✔ Per-repo exception handling with continue logic to avoid pipeline crash
+✔ Structured logging to file for success and failure tracking
+ 
+OUTPUT FILE:
+githubdata.db
+ 
+LEARNING FOCUS:
+Asynchronous HTTP requests with aiohttp
+Concurrent coroutine execution with asyncio.gather
+Semaphore-based concurrency control
+Real-world HTML parsing with BeautifulSoup
+Pydantic v2 field validators with mode="before"
+Type coercion and optional field handling in Pydantic
+Async SQLite operations with aiosqlite
+Deduplication strategy with UNIQUE constraints
+Error isolation per repo with try/except and continue
+Logging to file with Python's logging module
+End-to-end async data pipeline architecture
+
 ==================================================
 🛠 TECHNOLOGIES USED
 ==================================================
