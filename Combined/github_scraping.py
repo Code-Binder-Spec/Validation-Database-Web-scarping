@@ -3,8 +3,9 @@ from bs4 import BeautifulSoup
 from pydantic import BaseModel,field_validator
 import aiohttp
 import aiosqlite
+import logging
 
-
+logging.basicConfig(filename="Github.logger",level=logging.INFO)
 
 class Cleaning_data(BaseModel):
        
@@ -148,10 +149,19 @@ async def passing_blocks(url,session,full_data,time):
           source = await getting_source(url,session)
           soup = BeautifulSoup(source,"html.parser")
           boxes = soup.find_all("article",class_="Box-row")
+          succes = True
           for box in boxes:
-                      data = exctracting_caller(box,time)
-                      full_data.append(data)
-          return data
+                      try:
+                                data = exctracting_caller(box,time)
+                                full_data.append(data)
+                      except Exception as e:
+                                succes = False
+                                
+          if succes:
+                  logging.info(f"{url} Fetched : succes")
+          else :
+                logging.error(f"Data failed due to error {e}")  
+                  
 
 async def sql_writing(db,data):
          await db.execute("INSERT INTO github_trend(username,reponame,description,total_stars,total_fork,total_stars_today,programming_language,time_period) VALUES (?,?,?,?,?,?,?,?)",(data.username,data.reponame,data.description,data.total_stars,data.total_fork,data.total_stars_today,data.programing_language,data.time_period))
@@ -185,8 +195,11 @@ async def main():
                                     passing_blocks("https://github.com/trending?since=monthly",session,full_data,"Monthly")
                                                 )
                            for dict in full_data:
-                                     t1 = Cleaning_data(**dict)
-                                     validated_data.append(t1)
+                                try :
+                                        t1 = Cleaning_data(**dict)
+                                        validated_data.append(t1)
+                                except Exception as e :
+                                        logging.error(f"The data unpacking failed due to error . {e}")
                            for data in validated_data:
                                             await sql_writing(db,data) 
 
