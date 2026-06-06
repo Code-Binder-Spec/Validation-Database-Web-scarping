@@ -10,11 +10,21 @@ class Cleaning_data(BaseModel):
        
         username : str
         reponame : str
-        description : str
+        description : str | None
         total_stars : int
         total_stars_today : int
         total_fork : int
         programing_language : str | None
+        time_period : str
+
+        @field_validator("description",mode="before")
+        @classmethod
+        def checking_none(cls,v):
+                if v.lower() == "no description found":
+                        actual_des = None
+                        return actual_des
+                else :
+                        return v
 
         @field_validator("total_stars","total_fork",mode="before")
         @classmethod
@@ -75,7 +85,8 @@ def description_scraper(box):
                                   cleaned_description = description.text.strip()
                                   return cleaned_description
                      else :
-                             raise Exception("Didnt find description")
+                                  description = "No description found"
+                                  return description
         except Exception as e :
                             raise ValueError(f"Scraping description failed due to error {e}")
 
@@ -122,7 +133,7 @@ def language_scraper(box):
                                 raise ValueError(f"Language scraping failed due to error {e}")
                  
 
-def exctracting_caller(box):
+def exctracting_caller(box,time):
      
         user_name,reponame = user_repo_scraper(box)
         description = description_scraper(box)
@@ -130,20 +141,20 @@ def exctracting_caller(box):
         total_today_star = total_stars_today_scraper(box)
         programming_language = language_scraper(box)
 
-        return {"username":user_name , "reponame" : reponame , "description" : description , "total_stars" : total_star , "total_stars_today" : total_today_star , "total_fork" : total_fork , "programing_language" : programming_language }
+        return {"username":user_name , "reponame" : reponame , "description" : description , "total_stars" : total_star , "total_stars_today" : total_today_star , "total_fork" : total_fork , "programing_language" : programming_language , "time_period" : time }
         
 
-async def passing_blocks(url,session,full_data):
+async def passing_blocks(url,session,full_data,time):
           source = await getting_source(url,session)
           soup = BeautifulSoup(source,"html.parser")
           boxes = soup.find_all("article",class_="Box-row")
           for box in boxes:
-                      data = exctracting_caller(box)
+                      data = exctracting_caller(box,time)
                       full_data.append(data)
           return data
 
 async def sql_writing(db,data):
-         await db.execute("INSERT INTO github_trend(username,reponame,description,total_stars,total_fork,total_stars_today,programming_language) VALUES (?,?,?,?,?,?,?)",(data.username,data.reponame,data.description,data.total_stars,data.total_fork,data.total_stars_today,data.programing_language))
+         await db.execute("INSERT INTO github_trend(username,reponame,description,total_stars,total_fork,total_stars_today,programming_language,time_period) VALUES (?,?,?,?,?,?,?,?)",(data.username,data.reponame,data.description,data.total_stars,data.total_fork,data.total_stars_today,data.programing_language,data.time_period))
          await db.commit()
          return db
 
@@ -162,11 +173,17 @@ async def main():
                                            total_stars INTEGER,
                                            total_fork INTEGER,
                                            total_stars_today INTEGER,
-                                           programming_language TEXT
+                                           programming_language TEXT,
+                                           time_period TEXT
                                            )              
                                                  """)
                            await db.commit()
-                           await passing_blocks("https://github.com/trending",session,full_data)
+
+                           await asyncio.gather(
+                                    passing_blocks("https://github.com/trending",session,full_data,"Daily"),
+                                    passing_blocks("https://github.com/trending?since=weekly",session,full_data,"Weekly"),
+                                    passing_blocks("https://github.com/trending?since=monthly",session,full_data,"Monthly")
+                                                )
                            for dict in full_data:
                                      t1 = Cleaning_data(**dict)
                                      validated_data.append(t1)
