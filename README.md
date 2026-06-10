@@ -330,6 +330,53 @@ Logging to file with Python's logging module
 End-to-end async data pipeline architecture
 
 ==================================================
+📂 FOLDER: Combined
+📦 PROJECT — flipkart_scraper.py
+==================================================
+TYPE:
+Async Flipkart Product Scraper with Pydantic Validation and SQLite Storage
+
+DESCRIPTION:
+A Python-based asynchronous web scraper that collects product data from Flipkart
+search result pages using aiohttp and BeautifulSoup. The scraper fetches up to 30
+pages concurrently with a Semaphore-controlled request rate to avoid bot detection.
+Each product's raw data is validated and type-coerced through a Pydantic model
+before being persisted to a SQLite database via aiosqlite. The pipeline includes
+per-field error handling with flag-based fallbacks, structured logging to a file,
+and deduplication via a UNIQUE constraint to ensure safe repeated runs.
+
+MAIN FEATURES:
+✔ Asynchronous HTTP fetching using aiohttp with custom browser headers
+✔ Concurrent multi-page scraping (up to 30 pages) via asyncio.gather
+✔ Rate-limiting with asyncio.Semaphore to avoid triggering bot detection
+✔ Modular scraper functions per field (name, price, features, rating, reviews)
+✔ Flag-based error isolation — failed fields return fallback values, not crashes
+✔ Pydantic v2 model with field validators for type coercion and None handling
+✔ Handles optional fields (price, features, rating) with None fallback
+✔ Cleans rating and review counts from formatted strings to float/int
+✔ Async SQLite storage using aiosqlite
+✔ Deduplication via UNIQUE(name, price) constraint
+✔ INSERT OR IGNORE to safely skip duplicate rows on repeated runs
+✔ Structured logging to file for per-field scraping failures
+
+OUTPUT FILE:
+flipkart.db
+
+LEARNING FOCUS:
+Asynchronous HTTP requests with aiohttp
+Custom request headers for bot detection bypass
+Concurrent page scraping with asyncio.gather
+Semaphore-based concurrency control
+Modular scraper architecture with per-field functions
+Flag-based error handling without pipeline crashes
+Pydantic v2 field validators with mode="before"
+Optional field handling with None fallback values
+Type coercion from strings to float and int
+Async SQLite operations with aiosqlite
+Deduplication strategy with UNIQUE constraints
+Structured logging to file with Python logging module
+
+==================================================
 🛠 TECHNOLOGIES USED
 ==================================================
 
