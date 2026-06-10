@@ -75,6 +75,7 @@ def checking_none(value):
 
 
 async def getting_source(url,session):
+            await asyncio.sleep(4)
             async with sem :
                        async with session.get(url) as response :
                                          response.raise_for_status()
@@ -192,7 +193,6 @@ async def main():
     full_data_flipkart = []
     validated_data = []
     async with aiohttp.ClientSession() as session :
-                    asyncio.sleep(4)
                     async with aiosqlite.connect(".gitignore/data/db/flipkart.db") as db:
                                        await db.execute("""
                                        CREATE TABLE IF NOT EXISTS flipkart(
